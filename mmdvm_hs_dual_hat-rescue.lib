@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# SW_DIP_x01-RESCUE-mmdvm_hs-hat
+#
+DEF SW_DIP_x01-RESCUE-mmdvm_hs-hat SW 0 0 Y N 1 F N
+F0 "SW" 0 150 50 H V C CNN
+F1 "SW_DIP_x01-RESCUE-mmdvm_hs-hat" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SW?DIP?x1*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+P 2 0 0 0 -60 5 93 46 N
+S -150 100 150 -100 0 1 10 f
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
