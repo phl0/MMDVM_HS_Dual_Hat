@@ -62,11 +62,29 @@ X VDD4 9 -1000 -250 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# conn:CONN_01X02
+# mmdvm_hs_dual_hat-rescue:C-device
 #
-DEF conn:CONN_01X02 P 0 40 Y N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:C-device C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "mmdvm_hs_dual_hat-rescue:C-device" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mmdvm_hs_dual_hat-rescue:CONN_01X02-conn
+#
+DEF mmdvm_hs_dual_hat-rescue:CONN_01X02-conn P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "conn:CONN_01X02" 100 0 50 V V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:CONN_01X02-conn" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -84,11 +102,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# conn:CONN_01X04
+# mmdvm_hs_dual_hat-rescue:CONN_01X04-conn
 #
-DEF conn:CONN_01X04 P 0 40 Y N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:CONN_01X04-conn P 0 40 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
-F1 "conn:CONN_01X04" 100 0 50 V V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:CONN_01X04-conn" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -110,11 +128,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# conn:CONN_02X03
+# mmdvm_hs_dual_hat-rescue:CONN_02X03-conn
 #
-DEF conn:CONN_02X03 P 0 1 Y N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:CONN_02X03-conn P 0 1 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "conn:CONN_02X03" 0 -200 50 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:CONN_02X03-conn" 0 -200 50 H V C CNN
 F2 "" 0 -1200 50 H V C CNN
 F3 "" 0 -1200 50 H V C CNN
 $FPLIST
@@ -140,29 +158,11 @@ X P6 6 250 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:C
+# mmdvm_hs_dual_hat-rescue:CP-device
 #
-DEF device:C C 0 10 N Y 1 F N
+DEF mmdvm_hs_dual_hat-rescue:CP-device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "device:C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:CP
-#
-DEF device:CP C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "device:CP" 25 -100 50 H V L CNN
+F1 "mmdvm_hs_dual_hat-rescue:CP-device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -181,11 +181,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:Crystal
+# mmdvm_hs_dual_hat-rescue:Crystal-device
 #
-DEF device:Crystal Y 0 40 N N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:Crystal-device Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "device:Crystal" 0 -150 50 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:Crystal-device" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -202,11 +202,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:L
+# mmdvm_hs_dual_hat-rescue:L-device
 #
-DEF device:L L 0 40 N N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:L-device L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "device:L" 75 0 50 V V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:L-device" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -222,24 +222,6 @@ A 0 25 25 -899 899 0 1 0 N 0 0 0 50
 A 0 75 25 -899 899 0 1 0 N 0 50 0 100
 X 1 1 0 150 50 D 50 50 1 1 P
 X 2 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device:R
-#
-DEF device:R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "device:R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -279,6 +261,24 @@ P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mmdvm_hs_dual_hat-rescue:R-device
+#
+DEF mmdvm_hs_dual_hat-rescue:R-device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:R-device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
