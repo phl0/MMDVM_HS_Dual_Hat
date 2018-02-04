@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name mmdvm_hs_dual_hat-rescue)(type Legacy)(uri ${KIPRJMOD}/mmdvm_hs_dual_hat-rescue.lib)(options "")(descr ""))
+  (lib (name transistors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/transistors.lib)(options "")(descr ""))
+  (lib (name conn)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/conn.lib)(options "")(descr ""))
+  (lib (name 74xx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/74xx.lib)(options "")(descr ""))
+  (lib (name cmos4000)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/cmos4000.lib)(options "")(descr ""))
+  (lib (name display)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/display.lib)(options "")(descr ""))
+  (lib (name valves)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/valves.lib)(options "")(descr ""))
+  (lib (name stm32f103c8t6)(type Legacy)(uri ${KIPRJMOD}/stm32f103c8t6.lib)(options "")(descr ""))
+  (lib (name switches)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/switches.lib)(options "")(descr ""))
+  (lib (name adf7021)(type Legacy)(uri ${KIPRJMOD}/adf7021.lib)(options "")(descr ""))
+)
