@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 3
 Title "MMDVM_HS_Dual_Hat"
 Date "2018-02-05"
-Rev "0.1"
+Rev "1.0"
 Comp "DB9MAT+DF2ET+DO7EN"
 Comment1 ""
 Comment2 ""

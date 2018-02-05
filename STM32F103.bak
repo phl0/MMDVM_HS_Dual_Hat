@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "MMDVM_HS_Dual_Hat"
+Date "2018-02-05"
+Rev "0.1"
+Comp "DB9MAT+DF2ET+DO7EN"
 Comment1 ""
 Comment2 ""
 Comment3 ""
