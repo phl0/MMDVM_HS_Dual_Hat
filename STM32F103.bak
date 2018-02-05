@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L device:Crystal Y1
+L mmdvm_hs_dual_hat-rescue:Crystal-device Y1
 U 1 1 5A775536
 P 3950 2400
 F 0 "Y1" H 3950 2550 50  0000 C CNN
@@ -31,7 +31,7 @@ F 8 "" H -2750 100 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C40
+L mmdvm_hs_dual_hat-rescue:C-device C40
 U 1 1 5A775542
 P 3700 2150
 F 0 "C40" H 3725 2250 50  0000 L CNN
@@ -47,7 +47,7 @@ F 8 "" H -2750 -400 50  0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C41
+L mmdvm_hs_dual_hat-rescue:C-device C41
 U 1 1 5A77554E
 P 4250 2150
 F 0 "C41" H 4275 2250 50  0000 L CNN

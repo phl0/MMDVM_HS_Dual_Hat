@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L device:R R13
+L mmdvm_hs_dual_hat-rescue:R-device R13
 U 1 1 589685C3
 P 5400 6050
 F 0 "R13" V 5350 5850 50  0000 C CNN
@@ -31,7 +31,7 @@ F 8 "" H -850 150 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R14
+L mmdvm_hs_dual_hat-rescue:R-device R14
 U 1 1 58968631
 P 5400 6150
 F 0 "R14" V 5350 5950 50  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 5250 7450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C36
+L mmdvm_hs_dual_hat-rescue:C-device C36
 U 1 1 58969AA4
 P 5400 6450
 F 0 "C36" H 5425 6550 50  0000 L CNN
@@ -85,7 +85,7 @@ F 8 "" H -850 150 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C39
+L mmdvm_hs_dual_hat-rescue:C-device C39
 U 1 1 58969E8F
 P 5900 6600
 F 0 "C39" H 5925 6700 50  0000 L CNN
@@ -145,7 +145,7 @@ F 3 "" H 2950 7150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C20
+L mmdvm_hs_dual_hat-rescue:C-device C20
 U 1 1 5896DEF7
 P 2700 7250
 F 0 "C20" H 2725 7350 50  0000 L CNN
@@ -172,7 +172,7 @@ F 3 "" H 2700 7450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R4
+L mmdvm_hs_dual_hat-rescue:R-device R4
 U 1 1 5896E5F8
 P 2500 7200
 F 0 "R4" V 2580 7200 50  0000 C CNN
@@ -199,7 +199,7 @@ F 3 "" H 2500 7450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C16
+L mmdvm_hs_dual_hat-rescue:C-device C16
 U 1 1 5896E97E
 P 2250 7200
 F 0 "C16" H 2275 7300 50  0000 L CNN
@@ -226,7 +226,7 @@ F 3 "" H 2250 7450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R2
+L mmdvm_hs_dual_hat-rescue:R-device R2
 U 1 1 5896F75D
 P 2050 7200
 F 0 "R2" V 2130 7200 50  0000 C CNN
@@ -268,7 +268,7 @@ F 7 "584-ADF7021BCPZ" H -850 150 50  0001 C CNN "SPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C12
+L mmdvm_hs_dual_hat-rescue:C-device C12
 U 1 1 589705E1
 P 1800 7200
 F 0 "C12" H 1825 7300 50  0000 L CNN
@@ -284,7 +284,7 @@ F 8 "" H -400 150 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L L6
+L mmdvm_hs_dual_hat-rescue:L-device L6
 U 1 1 589706C7
 P 1800 6700
 F 0 "L6" V 1750 6700 50  0000 C CNN
@@ -322,7 +322,7 @@ F 3 "" H 2900 6350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C10
+L mmdvm_hs_dual_hat-rescue:C-device C10
 U 1 1 58971A8F
 P 1650 6450
 F 0 "C10" H 1675 6550 50  0000 L CNN
@@ -338,7 +338,7 @@ F 8 "" H -300 150 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C9
+L mmdvm_hs_dual_hat-rescue:C-device C9
 U 1 1 58971E4D
 P 1650 6250
 F 0 "C9" H 1675 6350 50  0000 L CNN
@@ -354,7 +354,7 @@ F 8 "" H -300 150 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C2
+L mmdvm_hs_dual_hat-rescue:C-device C2
 U 1 1 58972AD9
 P 1100 6700
 F 0 "C2" H 1125 6800 50  0000 L CNN
@@ -381,7 +381,7 @@ F 3 "" H 1100 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L L2
+L mmdvm_hs_dual_hat-rescue:L-device L2
 U 1 1 58972EEA
 P 950 6450
 F 0 "L2" V 900 6450 50  0000 C CNN
@@ -397,7 +397,7 @@ F 8 "" H 0   150 50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:L L8
+L mmdvm_hs_dual_hat-rescue:L-device L8
 U 1 1 58973BF8
 P 1900 6000
 F 0 "L8" V 1850 6000 50  0000 C CNN
@@ -413,7 +413,7 @@ F 8 "" H -300 150 50  0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C8
+L mmdvm_hs_dual_hat-rescue:C-device C8
 U 1 1 58973FC2
 P 1650 5750
 F 0 "C8" H 1675 5850 50  0000 L CNN
@@ -429,7 +429,7 @@ F 8 "" H -300 250 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C18
+L mmdvm_hs_dual_hat-rescue:C-device C18
 U 1 1 58974124
 P 2400 5850
 F 0 "C18" H 2425 5950 50  0000 L CNN
@@ -478,7 +478,7 @@ F 3 "" H 3800 5050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C24
+L mmdvm_hs_dual_hat-rescue:C-device C24
 U 1 1 589757AF
 P 3200 5300
 F 0 "C24" H 3225 5400 50  0000 L CNN
@@ -494,7 +494,7 @@ F 8 "" H -950 500 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R6
+L mmdvm_hs_dual_hat-rescue:R-device R6
 U 1 1 58976039
 P 2600 5300
 F 0 "R6" V 2680 5300 50  0000 C CNN
@@ -510,7 +510,7 @@ F 8 "" H -800 500 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C14
+L mmdvm_hs_dual_hat-rescue:C-device C14
 U 1 1 589762ED
 P 2200 5300
 F 0 "C14" H 2225 5400 50  0000 L CNN
@@ -526,7 +526,7 @@ F 8 "" H -800 500 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C4
+L mmdvm_hs_dual_hat-rescue:C-device C4
 U 1 1 589765ED
 P 1400 5750
 F 0 "C4" H 1425 5850 50  0000 L CNN
@@ -564,7 +564,7 @@ F 3 "" H 1600 5350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R8
+L mmdvm_hs_dual_hat-rescue:R-device R8
 U 1 1 58977A3D
 P 3150 4550
 F 0 "R8" V 3230 4550 50  0000 C CNN
@@ -580,7 +580,7 @@ F 8 "" H -1150 750 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R10
+L mmdvm_hs_dual_hat-rescue:R-device R10
 U 1 1 58977B33
 P 3350 4550
 F 0 "R10" V 3430 4550 50  0000 C CNN
@@ -596,7 +596,7 @@ F 8 "" H -1150 750 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C22
+L mmdvm_hs_dual_hat-rescue:C-device C22
 U 1 1 58977C18
 P 3150 4850
 F 0 "C22" H 3175 4950 50  0000 L CNN
@@ -612,7 +612,7 @@ F 8 "" H -1150 650 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C26
+L mmdvm_hs_dual_hat-rescue:C-device C26
 U 1 1 58977D12
 P 3350 4850
 F 0 "C26" H 3375 4950 50  0000 L CNN
@@ -628,7 +628,7 @@ F 8 "" H -1150 650 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C28
+L mmdvm_hs_dual_hat-rescue:C-device C28
 U 1 1 58977DF7
 P 3550 4550
 F 0 "C28" H 3575 4650 50  0000 L CNN
@@ -644,7 +644,7 @@ F 8 "" H -1200 750 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C32
+L mmdvm_hs_dual_hat-rescue:C-device C32
 U 1 1 58979714
 P 4600 4800
 F 0 "C32" H 4625 4900 50  0000 L CNN
@@ -671,7 +671,7 @@ F 3 "" H 4600 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C30
+L mmdvm_hs_dual_hat-rescue:C-device C30
 U 1 1 58979B33
 P 4250 5100
 F 0 "C30" V 4300 5150 50  0000 L CNN
@@ -736,7 +736,7 @@ F 3 "" H 7100 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C42
+L mmdvm_hs_dual_hat-rescue:C-device C42
 U 1 1 5897B23C
 P 7100 1650
 F 0 "C42" H 7125 1750 50  0000 L CNN
@@ -752,7 +752,7 @@ F 8 "" H 1050 -2900 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C34
+L mmdvm_hs_dual_hat-rescue:C-device C34
 U 1 1 5897BA0E
 P 5000 5250
 F 0 "C34" H 5025 5350 50  0000 L CNN
@@ -768,7 +768,7 @@ F 8 "" H -800 700 50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn:CONN_01X02 P1
+L mmdvm_hs_dual_hat-rescue:CONN_01X02-conn P1
 U 1 1 5897CEF8
 P 650 2700
 F 0 "P1" H 650 2850 50  0000 C CNN
@@ -824,7 +824,7 @@ NoConn ~ 4550 5350
 NoConn ~ 4650 5350
 NoConn ~ 5150 6250
 $Comp
-L device:L L4
+L mmdvm_hs_dual_hat-rescue:L-device L4
 U 1 1 58972852
 P 1250 6450
 F 0 "L4" V 1200 6450 50  0000 C CNN
@@ -1054,7 +1054,7 @@ Wire Wire Line
 	4350 5350 4350 4600
 Connection ~ 4350 4600
 $Comp
-L device:R R11
+L mmdvm_hs_dual_hat-rescue:R-device R11
 U 1 1 5A68A726
 P 5450 2250
 F 0 "R11" V 5400 2050 50  0000 C CNN
@@ -1070,7 +1070,7 @@ F 8 "" H -800 -3650 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R12
+L mmdvm_hs_dual_hat-rescue:R-device R12
 U 1 1 5A68A731
 P 5450 2350
 F 0 "R12" V 5400 2150 50  0000 C CNN
@@ -1108,7 +1108,7 @@ F 3 "" H 5300 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C35
+L mmdvm_hs_dual_hat-rescue:C-device C35
 U 1 1 5A68A748
 P 5450 2650
 F 0 "C35" H 5475 2750 50  0000 L CNN
@@ -1124,7 +1124,7 @@ F 8 "" H -800 -3650 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C38
+L mmdvm_hs_dual_hat-rescue:C-device C38
 U 1 1 5A68A753
 P 5950 2800
 F 0 "C38" H 5975 2900 50  0000 L CNN
@@ -1184,7 +1184,7 @@ F 3 "" H 3000 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C19
+L mmdvm_hs_dual_hat-rescue:C-device C19
 U 1 1 5A68A776
 P 2750 3450
 F 0 "C19" H 2775 3550 50  0000 L CNN
@@ -1211,7 +1211,7 @@ F 3 "" H 2750 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R3
+L mmdvm_hs_dual_hat-rescue:R-device R3
 U 1 1 5A68A787
 P 2550 3400
 F 0 "R3" V 2630 3400 50  0000 C CNN
@@ -1238,7 +1238,7 @@ F 3 "" H 2550 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C15
+L mmdvm_hs_dual_hat-rescue:C-device C15
 U 1 1 5A68A798
 P 2300 3400
 F 0 "C15" H 2325 3500 50  0000 L CNN
@@ -1265,7 +1265,7 @@ F 3 "" H 2300 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R1
+L mmdvm_hs_dual_hat-rescue:R-device R1
 U 1 1 5A68A7A9
 P 2100 3400
 F 0 "R1" V 2180 3400 50  0000 C CNN
@@ -1307,7 +1307,7 @@ F 7 "584-ADF7021BCPZ" H -800 -3650 50  0001 C CNN "SPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C11
+L mmdvm_hs_dual_hat-rescue:C-device C11
 U 1 1 5A68A7C5
 P 1850 3400
 F 0 "C11" H 1875 3500 50  0000 L CNN
@@ -1323,7 +1323,7 @@ F 8 "" H -350 -3650 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L L5
+L mmdvm_hs_dual_hat-rescue:L-device L5
 U 1 1 5A68A7D0
 P 1850 2900
 F 0 "L5" V 1800 2900 50  0000 C CNN
@@ -1361,7 +1361,7 @@ F 3 "" H 2950 2550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C7
+L mmdvm_hs_dual_hat-rescue:C-device C7
 U 1 1 5A68A7E7
 P 1700 2650
 F 0 "C7" H 1725 2750 50  0000 L CNN
@@ -1377,7 +1377,7 @@ F 8 "" H -250 -3650 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C6
+L mmdvm_hs_dual_hat-rescue:C-device C6
 U 1 1 5A68A7F2
 P 1700 2450
 F 0 "C6" H 1725 2550 50  0000 L CNN
@@ -1393,7 +1393,7 @@ F 8 "" H -250 -3650 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C1
+L mmdvm_hs_dual_hat-rescue:C-device C1
 U 1 1 5A68A7FD
 P 1150 2900
 F 0 "C1" H 1175 3000 50  0000 L CNN
@@ -1420,7 +1420,7 @@ F 3 "" H 1150 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L L1
+L mmdvm_hs_dual_hat-rescue:L-device L1
 U 1 1 5A68A80E
 P 1000 2650
 F 0 "L1" V 950 2650 50  0000 C CNN
@@ -1436,7 +1436,7 @@ F 8 "" H 50  -3650 50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:L L7
+L mmdvm_hs_dual_hat-rescue:L-device L7
 U 1 1 5A68A819
 P 1950 2200
 F 0 "L7" V 1900 2200 50  0000 C CNN
@@ -1452,7 +1452,7 @@ F 8 "" H -250 -3650 50  0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C5
+L mmdvm_hs_dual_hat-rescue:C-device C5
 U 1 1 5A68A824
 P 1700 1950
 F 0 "C5" H 1725 2050 50  0000 L CNN
@@ -1468,7 +1468,7 @@ F 8 "" H -250 -3550 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C17
+L mmdvm_hs_dual_hat-rescue:C-device C17
 U 1 1 5A68A82F
 P 2450 2050
 F 0 "C17" H 2475 2150 50  0000 L CNN
@@ -1517,7 +1517,7 @@ F 3 "" H 3850 1250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C23
+L mmdvm_hs_dual_hat-rescue:C-device C23
 U 1 1 5A68A84C
 P 3250 1500
 F 0 "C23" H 3275 1600 50  0000 L CNN
@@ -1533,7 +1533,7 @@ F 8 "" H -900 -3300 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R5
+L mmdvm_hs_dual_hat-rescue:R-device R5
 U 1 1 5A68A857
 P 2650 1500
 F 0 "R5" V 2730 1500 50  0000 C CNN
@@ -1549,7 +1549,7 @@ F 8 "" H -750 -3300 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C13
+L mmdvm_hs_dual_hat-rescue:C-device C13
 U 1 1 5A68A862
 P 2250 1500
 F 0 "C13" H 2275 1600 50  0000 L CNN
@@ -1565,7 +1565,7 @@ F 8 "" H -750 -3300 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C3
+L mmdvm_hs_dual_hat-rescue:C-device C3
 U 1 1 5A68A86D
 P 1450 1950
 F 0 "C3" H 1475 2050 50  0000 L CNN
@@ -1603,7 +1603,7 @@ F 3 "" H 1600 1500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R7
+L mmdvm_hs_dual_hat-rescue:R-device R7
 U 1 1 5A68A884
 P 3200 750
 F 0 "R7" V 3280 750 50  0000 C CNN
@@ -1619,7 +1619,7 @@ F 8 "" H -1100 -3050 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R9
+L mmdvm_hs_dual_hat-rescue:R-device R9
 U 1 1 5A68A88F
 P 3400 750
 F 0 "R9" V 3480 750 50  0000 C CNN
@@ -1635,7 +1635,7 @@ F 8 "" H -1100 -3050 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C21
+L mmdvm_hs_dual_hat-rescue:C-device C21
 U 1 1 5A68A89A
 P 3200 1050
 F 0 "C21" H 3225 1150 50  0000 L CNN
@@ -1651,7 +1651,7 @@ F 8 "" H -1100 -3150 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C25
+L mmdvm_hs_dual_hat-rescue:C-device C25
 U 1 1 5A68A8A5
 P 3400 1050
 F 0 "C25" H 3425 1150 50  0000 L CNN
@@ -1667,7 +1667,7 @@ F 8 "" H -1100 -3150 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C27
+L mmdvm_hs_dual_hat-rescue:C-device C27
 U 1 1 5A68A8B0
 P 3600 750
 F 0 "C27" H 3625 850 50  0000 L CNN
@@ -1683,7 +1683,7 @@ F 8 "" H -1150 -3050 50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C31
+L mmdvm_hs_dual_hat-rescue:C-device C31
 U 1 1 5A68A8BB
 P 4650 1000
 F 0 "C31" H 4675 1100 50  0000 L CNN
@@ -1710,7 +1710,7 @@ F 3 "" H 4650 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C29
+L mmdvm_hs_dual_hat-rescue:C-device C29
 U 1 1 5A68A8CC
 P 4300 1300
 F 0 "C29" V 4350 1350 50  0000 L CNN
@@ -1737,7 +1737,7 @@ F 3 "" H 4300 1050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C33
+L mmdvm_hs_dual_hat-rescue:C-device C33
 U 1 1 5A68A8FF
 P 5100 1450
 F 0 "C33" H 5125 1550 50  0000 L CNN
@@ -1782,7 +1782,7 @@ NoConn ~ 4600 1550
 NoConn ~ 4700 1550
 NoConn ~ 5200 2450
 $Comp
-L device:L L3
+L mmdvm_hs_dual_hat-rescue:L-device L3
 U 1 1 5A68A946
 P 1300 2650
 F 0 "L3" V 1250 2650 50  0000 C CNN
@@ -1997,7 +1997,7 @@ Wire Wire Line
 	4400 1550 4400 800 
 Connection ~ 4400 800 
 $Comp
-L conn:CONN_01X02 P2
+L mmdvm_hs_dual_hat-rescue:CONN_01X02-conn P2
 U 1 1 5A68D98C
 P 600 6500
 F 0 "P2" H 600 6650 50  0000 C CNN
@@ -2285,7 +2285,7 @@ F 3 "" H 6900 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C37
+L mmdvm_hs_dual_hat-rescue:C-device C37
 U 1 1 5A8E78D7
 P 6900 5450
 F 0 "C37" H 6925 5550 50  0000 L CNN
