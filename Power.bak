@@ -69,34 +69,10 @@ F 4 "Omron Electronics" H -3900 -1350 50  0001 C CNN "MFR"
 F 5 "B3U-1000P" H -3900 -1350 50  0001 C CNN "MPN"
 F 6 "Mouser" H -3900 -1350 50  0001 C CNN "SPR"
 F 7 "653-B3U-1000P" H -3900 -1350 50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    1050 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 850  2    49   Input ~ 0
-NRST
-Wire Wire Line
-	1050 850  1150 850 
-Wire Wire Line
-	1400 1250 1400 1300
-Wire Wire Line
-	1400 850  1400 950 
-Wire Wire Line
-	700  850  750  850 
-Wire Wire Line
-	700  800  700  850 
-Wire Wire Line
-	1350 1300 1400 1300
-Wire Wire Line
-	1150 850  1150 1000
-Wire Wire Line
-	1150 1000 700  1000
-Wire Wire Line
-	700  1000 700  1300
-Wire Wire Line
-	700  1300 750  1300
-Connection ~ 1400 850 
-Connection ~ 1400 1300
-Connection ~ 1150 850 
 $Comp
 L power:+3.3V #PWR078
 U 1 1 5A7E28F1
@@ -108,12 +84,6 @@ F 3 "" H 700 800 50  0000 C CNN
 	1    700  800 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 850  1500 850 
-Wire Wire Line
-	1400 1300 1400 1350
-Wire Wire Line
-	1150 850  1400 850 
 $Comp
 L mmdvm_hs_dual_hat-rescue:C-device C44
 U 1 1 5A7E323F
@@ -173,20 +143,6 @@ F 3 "" H 2300 1300 50  0000 C CNN
 	1    2300 1300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 750  2300 850 
-Wire Wire Line
-	2050 850  2300 850 
-Wire Wire Line
-	2550 850  2550 900 
-Wire Wire Line
-	2050 1250 2300 1250
-Wire Wire Line
-	2550 1250 2550 1200
-Wire Wire Line
-	2300 1200 2300 1250
-Connection ~ 2300 850 
-Connection ~ 2300 1250
 $Comp
 L power:+3.3V #PWR081
 U 1 1 5A7E326C
@@ -198,18 +154,6 @@ F 3 "" H 2300 750 50  0000 C CNN
 	1    2300 750 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 850  2050 900 
-Wire Wire Line
-	2050 1200 2050 1250
-Wire Wire Line
-	2300 850  2300 900 
-Wire Wire Line
-	2300 850  2550 850 
-Wire Wire Line
-	2300 1250 2550 1250
-Wire Wire Line
-	2300 1250 2300 1300
 $Comp
 L mmdvm_hs_dual_hat-rescue:R-device R25
 U 1 1 5A842562
@@ -238,6 +182,7 @@ F 4 "Kingbright" H -8400 -2000 50  0001 C CNN "MFR"
 F 5 "APHHS1005CGCK" H -8400 -2000 50  0001 C CNN "MPN"
 F 6 "Mouser" H -8400 -2000 50  0001 C CNN "SPR"
 F 7 "604-APHHS1005CGCK" H -8400 -2000 50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    2050 2400
 	-1   0    0    1   
 $EndComp
@@ -253,6 +198,7 @@ F 4 "Kingbright" H -8400 -2000 50  0001 C CNN "MFR"
 F 5 "APG1005SYC-T" H -8400 -2000 50  0001 C CNN "MPN"
 F 6 "Mouser" H -8400 -2000 50  0001 C CNN "SPR"
 F 7 "604-APG1005SYCT" H -8400 -2000 50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    2050 2700
 	-1   0    0    1   
 $EndComp
@@ -268,6 +214,7 @@ F 4 "Kingbright" H -8400 -2000 50  0001 C CNN "MFR"
 F 5 "APHHS1005SURCK" H -8400 -2000 50  0001 C CNN "MPN"
 F 6 "Mouser" H -8400 -2000 50  0001 C CNN "SPR"
 F 7 "604-APHHS1005SURCK" H -8400 -2000 50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    2050 3000
 	-1   0    0    1   
 $EndComp
@@ -283,6 +230,7 @@ F 4 "Kingbright" H -8400 -2000 50  0001 C CNN "MFR"
 F 5 "APG1005SYC-T" H -8400 -2000 50  0001 C CNN "MPN"
 F 6 "Mouser" H -8400 -2000 50  0001 C CNN "SPR"
 F 7 "604-APG1005SYCT" H -8400 -2000 50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    2050 3300
 	-1   0    0    1   
 $EndComp
@@ -298,6 +246,7 @@ F 4 "Kingbright" H -8400 -2000 50  0001 C CNN "MFR"
 F 5 "APHHS1005CGCK" H -8400 -2000 50  0001 C CNN "MPN"
 F 6 "Mouser" H -8400 -2000 50  0001 C CNN "SPR"
 F 7 "604-APHHS1005CGCK" H -8400 -2000 50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    2050 3600
 	-1   0    0    1   
 $EndComp
@@ -313,6 +262,7 @@ F 4 "Kingbright" H -8400 -2000 50  0001 C CNN "MFR"
 F 5 "APG1005SEC-T" H -8400 -2000 50  0001 C CNN "MPN"
 F 6 "Mouser" H -8400 -2000 50  0001 C CNN "SPR"
 F 7 "604-APG1005SECT" H -8400 -2000 50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    2050 3900
 	-1   0    0    1   
 $EndComp
@@ -328,6 +278,7 @@ F 4 "Kingbright" H -8400 -2000 50  0001 C CNN "MFR"
 F 5 "APHHS1005SURCK" H -8400 -2000 50  0001 C CNN "MPN"
 F 6 "Mouser" H -8400 -2000 50  0001 C CNN "SPR"
 F 7 "604-APHHS1005SURCK" H -8400 -2000 50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    2050 4200
 	-1   0    0    1   
 $EndComp
@@ -439,6 +390,7 @@ F 4 "Panasonic" H -9200 -2000 50  0001 C CNN "MFR"
 F 5 "ERJ-PA2D1001X" H -9200 -2000 50  0001 C CNN "MPN"
 F 6 "Mouser" H -9200 -2000 50  0001 C CNN "SPR"
 F 7 "667-ERJ-PA2D1001X" H -9200 -2000 50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    1650 4200
 	0    1    1    0   
 $EndComp
@@ -520,6 +472,7 @@ F 4 "Kingbright" H -8800 -3900 50  0001 C CNN "MFR"
 F 5 "APHHS1005SURCK" H -8800 -3900 50  0001 C CNN "MPN"
 F 6 "Mouser" H -8800 -3900 50  0001 C CNN "SPR"
 F 7 "604-APHHS1005SURCK" H -8800 -3900 50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    1650 2000
 	1    0    0    -1  
 $EndComp
@@ -539,148 +492,6 @@ F 8 "" H -8800 -2000 50  0001 C CNN "SPURL"
 	1    2050 2000
 	0    1    1    0   
 $EndComp
-Text GLabel 5550 4050 2    49   Input ~ 0
-BOOT0
-Text GLabel 1400 2700 0    49   Input ~ 0
-COS_LED
-Text GLabel 1400 3000 0    49   Input ~ 0
-PTT_LED
-Text GLabel 1400 3300 0    49   Input ~ 0
-DMR_LED
-Text GLabel 1400 3600 0    49   Input ~ 0
-DSTAR_LED
-Text GLabel 1400 4200 0    49   Input ~ 0
-P25_LED
-Text GLabel 1400 3900 0    49   Input ~ 0
-YSF_LED
-Text GLabel 5250 2550 2    60   Input ~ 0
-RXD
-Text GLabel 5250 2650 2    60   Input ~ 0
-TXD
-Text GLabel 5200 4150 2    49   Input ~ 0
-NRST
-Text GLabel 1400 2000 0    49   Input ~ 0
-SERVICE
-Text GLabel 3100 2350 0    60   Input ~ 0
-SDA
-Text GLabel 3100 2450 0    60   Input ~ 0
-SCL
-NoConn ~ 3250 2550
-NoConn ~ 3250 2750
-NoConn ~ 3250 2850
-NoConn ~ 3250 2950
-NoConn ~ 3250 3150
-NoConn ~ 3250 3250
-NoConn ~ 3250 3350
-NoConn ~ 3250 3550
-NoConn ~ 3250 3650
-NoConn ~ 3250 3750
-NoConn ~ 3250 3850
-NoConn ~ 3250 3950
-NoConn ~ 3250 4050
-NoConn ~ 5150 3950
-NoConn ~ 5150 3750
-NoConn ~ 5150 3550
-NoConn ~ 5150 3450
-NoConn ~ 5150 3350
-NoConn ~ 5150 3250
-NoConn ~ 5150 3050
-NoConn ~ 5150 2950
-NoConn ~ 5150 2750
-Wire Wire Line
-	2300 2400 2300 2700
-Wire Wire Line
-	1400 2300 1400 2400
-Wire Wire Line
-	1400 2400 1500 2400
-Wire Wire Line
-	2900 2650 3250 2650
-Wire Wire Line
-	3250 4150 2950 4150
-Wire Wire Line
-	2900 2650 2900 2700
-Wire Wire Line
-	3250 3450 2950 3450
-Wire Wire Line
-	1400 2000 1500 2000
-Wire Wire Line
-	1800 2000 1900 2000
-Wire Wire Line
-	2300 2400 2200 2400
-Wire Wire Line
-	2300 2700 2200 2700
-Wire Wire Line
-	2300 3000 2200 3000
-Wire Wire Line
-	2300 3300 2200 3300
-Wire Wire Line
-	2300 3600 2200 3600
-Wire Wire Line
-	2300 3900 2200 3900
-Wire Wire Line
-	2300 4200 2200 4200
-Wire Wire Line
-	1900 4200 1800 4200
-Wire Wire Line
-	1500 4200 1400 4200
-Wire Wire Line
-	1900 3900 1800 3900
-Wire Wire Line
-	1500 3900 1400 3900
-Wire Wire Line
-	1400 3600 1500 3600
-Wire Wire Line
-	1900 3300 1800 3300
-Wire Wire Line
-	1900 3600 1800 3600
-Wire Wire Line
-	1500 3300 1400 3300
-Wire Wire Line
-	1400 3000 1500 3000
-Wire Wire Line
-	1800 3000 1900 3000
-Wire Wire Line
-	1500 2700 1400 2700
-Wire Wire Line
-	1800 2400 1900 2400
-Wire Wire Line
-	2950 3450 2950 4150
-Wire Wire Line
-	3250 2350 3100 2350
-Wire Wire Line
-	3250 2450 3100 2450
-Connection ~ 2300 2700
-Connection ~ 2300 3000
-Connection ~ 2300 3300
-Connection ~ 2300 3600
-Connection ~ 2300 3900
-Connection ~ 2300 4200
-Connection ~ 2950 4150
-Wire Wire Line
-	5150 2850 5350 2850
-Wire Wire Line
-	5150 3650 5200 3650
-Connection ~ 5350 3650
-Wire Wire Line
-	5150 3150 5350 3150
-Connection ~ 5350 3150
-Wire Wire Line
-	5150 3850 5200 3850
-Wire Wire Line
-	5200 3850 5200 3650
-Connection ~ 5200 3650
-Wire Wire Line
-	5350 2850 5350 3150
-Wire Wire Line
-	5150 4050 5200 4050
-Wire Wire Line
-	5500 4050 5550 4050
-Wire Wire Line
-	5150 2650 5250 2650
-Wire Wire Line
-	5400 2250 5300 2250
-Wire Wire Line
-	5300 2250 5300 2450
 $Comp
 L mmdvm_hs_dual_hat-rescue:RPi_GPIO-RESCUE-mmdvm_hs_dual_hat J1
 U 1 1 5A8426B4
@@ -688,11 +499,15 @@ P 3450 2250
 F 0 "J1" H 4200 2500 60  0000 C CNN
 F 1 "RPi_GPIO" H 4200 2400 60  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 3450 2250 60  0001 C CNN
-F 3 "" H 3450 2250 60  0000 C CNN
+F 3 "https://www.mouser.com/ds/2/181/M20-783-1133465.pdf" H 3450 2250 60  0001 C CNN
+F 4 "Harwin" H 0   0   50  0001 C CNN "MFR"
+F 5 "M20-7832046" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "855-M20-7832046" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    3450 2250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3250 2250
 $Comp
 L power:+3.3V #PWR080
 U 1 1 5A8426BC
@@ -715,7 +530,6 @@ F 3 "" H 2300 1900 50  0000 C CNN
 	1    2300 1900
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3250 3050
 $Comp
 L mmdvm_hs_dual_hat-rescue:LED-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat D8
 U 1 1 5A8426D3
@@ -728,6 +542,7 @@ F 4 "Kingbright" H -8400 -1700 50  0001 C CNN "MFR"
 F 5 "APHHS1005SURCK" H -8400 -1700 50  0001 C CNN "MPN"
 F 6 "Mouser" H -8400 -1700 50  0001 C CNN "SPR"
 F 7 "604-APHHS1005SURCK" H -8400 -1700 50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    2050 4500
 	-1   0    0    1   
 $EndComp
@@ -747,86 +562,6 @@ F 8 "" H -8800 -1700 50  0001 C CNN "SPURL"
 	1    1650 4500
 	0    1    1    0   
 $EndComp
-Text GLabel 1400 4500 0    49   Input ~ 0
-NXDN_LED
-Wire Wire Line
-	1900 4500 1800 4500
-Wire Wire Line
-	1500 4500 1400 4500
-Wire Wire Line
-	2300 2700 2300 3000
-Wire Wire Line
-	2300 3000 2300 3300
-Wire Wire Line
-	2300 3300 2300 3600
-Wire Wire Line
-	2300 3600 2300 3900
-Wire Wire Line
-	2300 3900 2300 4200
-Wire Wire Line
-	2950 4150 2950 4200
-Wire Wire Line
-	5350 3650 5350 3750
-Wire Wire Line
-	5350 3150 5350 3650
-Wire Wire Line
-	5200 3650 5350 3650
-Wire Wire Line
-	2200 4500 2300 4500
-Connection ~ 2300 4500
-Wire Wire Line
-	2300 4500 2300 4600
-Wire Wire Line
-	5150 2350 5250 2350
-Wire Wire Line
-	5250 2350 5250 2250
-Wire Wire Line
-	5150 2250 5250 2250
-Connection ~ 5250 2250
-Wire Wire Line
-	5250 2250 5250 2200
-Wire Wire Line
-	2300 4200 2300 4500
-Wire Wire Line
-	5300 2450 5150 2450
-Wire Wire Line
-	5400 2300 5400 2250
-Wire Wire Line
-	5150 2550 5250 2550
-Wire Wire Line
-	5150 4150 5200 4150
-Wire Wire Line
-	6900 2800 6950 2800
-Wire Wire Line
-	7150 2500 7150 2600
-Wire Wire Line
-	6950 2700 7400 2700
-Wire Wire Line
-	6900 2700 6950 2700
-Wire Wire Line
-	6950 2800 7350 2800
-Wire Wire Line
-	7350 2800 7400 2800
-Wire Wire Line
-	7150 2600 7150 2900
-Wire Wire Line
-	7300 3200 7300 3250
-Wire Wire Line
-	7450 3950 7450 4000
-Wire Wire Line
-	7350 3950 7450 3950
-Wire Wire Line
-	6750 3950 6850 3950
-Wire Wire Line
-	6750 4000 6750 3950
-Wire Wire Line
-	7450 3750 7450 3700
-Wire Wire Line
-	7350 3750 7450 3750
-Wire Wire Line
-	6750 3750 6850 3750
-Wire Wire Line
-	6750 3700 6750 3750
 $Comp
 L power:+3.3V #PWR098
 U 1 1 5A8AD6C4
@@ -871,14 +606,6 @@ F 3 "" H 6750 4000 50  0000 C CNN
 	1    6750 4000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7350 3850 7450 3850
-Wire Wire Line
-	6750 3850 6850 3850
-Text GLabel 7450 3850 2    49   Input ~ 0
-BOOT1
-Text GLabel 6750 3850 0    49   Input ~ 0
-BOOT0
 $Comp
 L mmdvm_hs_dual_hat-rescue:CONN_02X03-conn P7
 U 1 1 5A8AD6E0
@@ -886,15 +613,15 @@ P 7100 3850
 F 0 "P7" H 7100 4050 50  0000 C CNN
 F 1 "CONN_02X03" H 7100 3650 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 7100 2650 50  0001 C CNN
-F 3 "" H 7100 2650 50  0000 C CNN
+F 3 "https://www.mouser.com/ds/2/418/NG_CD_826629_AA_baseFilename-774094.pdf" H 7100 2650 50  0001 C CNN
+F 4 "TE Connectivity / AMP" H 0   0   50  0001 C CNN "MFR"
+F 5 " 826632-3" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "571-826632-3" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    7100 3850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7350 2150 7350 2100
-Connection ~ 7350 2800
-Wire Wire Line
-	7350 2450 7350 2800
 $Comp
 L power:+5V #PWR097
 U 1 1 5A8AD6EA
@@ -913,15 +640,15 @@ P 7350 2300
 F 0 "R28" V 7430 2300 50  0000 C CNN
 F 1 "1k5" V 7350 2300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" V 7280 2300 50  0001 C CNN
-F 3 "" H 7350 2300 50  0000 C CNN
+F 3 "https://www.mouser.com/ds/2/315/AOA0000C307-1149632.pdf" H 7350 2300 50  0001 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "MFR"
+F 5 "ERA-2AED152X" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "667-ERA-2AED152X" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    7350 2300
 	1    0    0    -1  
 $EndComp
-Connection ~ 6950 2700
-Wire Wire Line
-	6950 2650 6950 2700
-Wire Wire Line
-	7150 2100 7150 2200
 $Comp
 L power:+5V #PWR094
 U 1 1 5A8AD6FA
@@ -945,21 +672,10 @@ F 4 "Wurth Electronics" H 6100 -1450 50  0001 C CNN "MFR"
 F 5 "74279277" H 6100 -1450 50  0001 C CNN "MPN"
 F 6 "Mouser" H 6100 -1450 50  0001 C CNN "SPR"
 F 7 "710-74279277" H 6100 -1450 50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    7150 2350
 	1    0    0    -1  
 $EndComp
-Text GLabel 6550 2800 0    49   Input ~ 0
-D+
-Text GLabel 6550 2700 0    49   Input ~ 0
-D-
-Wire Wire Line
-	6550 2800 6600 2800
-Wire Wire Line
-	6550 2700 6600 2700
-Wire Wire Line
-	6950 3200 6950 3250
-Wire Wire Line
-	7150 3200 7150 3250
 $Comp
 L power:GND #PWR095
 U 1 1 5A8AD711
@@ -971,9 +687,6 @@ F 3 "" H 7150 3250 50  0000 C CNN
 	1    7150 3250
 	1    0    0    -1  
 $EndComp
-Connection ~ 6950 2800
-Wire Wire Line
-	6950 2900 6950 2800
 $Comp
 L mmdvm_hs_dual_hat-rescue:C-device C49
 U 1 1 5A8AD719
@@ -981,16 +694,15 @@ P 7150 3050
 F 0 "C49" H 7175 3150 50  0000 L CNN
 F 1 "10n" H 7175 2950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 7188 2900 50  0001 C CNN
-F 3 "" H 7150 3050 50  0000 C CNN
+F 3 "https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 7150 3050 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 0   0   50  0001 C CNN "MFR"
+F 5 "VJ0402Y103KXJCW1BC" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "77-VJ0402Y103KXJCBC" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    7150 3050
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6950 2300 6950 2350
-Wire Wire Line
-	6700 2300 6950 2300
-Wire Wire Line
-	6700 2350 6700 2300
 $Comp
 L power:GND #PWR090
 U 1 1 5A8AD723
@@ -1013,8 +725,6 @@ F 3 "" H 6950 3250 50  0000 C CNN
 	1    6950 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7300 3200 7800 3200
 $Comp
 L mmdvm_hs_dual_hat-rescue:C-device C48
 U 1 1 5A8AD730
@@ -1022,7 +732,12 @@ P 6950 3050
 F 0 "C48" H 6975 3150 50  0000 L CNN
 F 1 "47p" H 6975 2950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 6988 2900 50  0001 C CNN
-F 3 "" H 6950 3050 50  0000 C CNN
+F 3 "https://www.mouser.com/ds/2/281/c02e-2905.pdf" H 6950 3050 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM1555C1H470FA01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-GRM1555C1H470FA1D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    6950 3050
 	-1   0    0    1   
 $EndComp
@@ -1033,7 +748,12 @@ P 6950 2500
 F 0 "C47" H 6975 2600 50  0000 L CNN
 F 1 "47p" H 6975 2400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 6988 2350 50  0001 C CNN
-F 3 "" H 6950 2500 50  0000 C CNN
+F 3 "https://www.mouser.com/ds/2/281/c02e-2905.pdf" H 6950 2500 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM1555C1H470FA01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-GRM1555C1H470FA1D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    6950 2500
 	-1   0    0    1   
 $EndComp
@@ -1044,7 +764,12 @@ P 6750 2800
 F 0 "R27" V 6830 2800 50  0000 C CNN
 F 1 "27R" V 6750 2800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" V 6680 2800 50  0001 C CNN
-F 3 "" H 6750 2800 50  0000 C CNN
+F 3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 6750 2800 50  0001 C CNN
+F 4 "Susumu" H 0   0   50  0001 C CNN "MFR"
+F 5 "RR0510R-270-D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "754-RR0510R-270D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    6750 2800
 	0    1    1    0   
 $EndComp
@@ -1055,19 +780,15 @@ P 6750 2700
 F 0 "R26" V 6830 2700 50  0000 C CNN
 F 1 "27R" V 6750 2700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" V 6680 2700 50  0001 C CNN
-F 3 "" H 6750 2700 50  0000 C CNN
+F 3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" H 6750 2700 50  0001 C CNN
+F 4 "Susumu" H 0   0   50  0001 C CNN "MFR"
+F 5 "RR0510R-270-D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "754-RR0510R-270D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    6750 2700
 	0    1    1    0   
 $EndComp
-Connection ~ 7150 2600
-Wire Wire Line
-	7150 2600 7400 2600
-NoConn ~ 7400 2900
-Connection ~ 7300 3200
-Wire Wire Line
-	7300 3000 7300 3200
-Wire Wire Line
-	7400 3000 7300 3000
 $Comp
 L power:GND #PWR096
 U 1 1 5A8AD752
@@ -1085,8 +806,13 @@ U 1 1 5A8AD758
 P 7700 2800
 F 0 "P8" H 8025 2675 50  0000 C CNN
 F 1 "USB_OTG" H 7700 3000 50  0000 C CNN
-F 2 "Connectors_USB:USB_Micro-B_Wuerth-629105150521" V 7650 2700 50  0001 C CNN
-F 3 "" V 7650 2700 50  0000 C CNN
+F 2 "Connector_USB:USB_Mini-B_Lumber_2486_Horizontal" V 7650 2700 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/445/65100516121-537838.pdf" V 7650 2700 50  0001 C CNN
+F 4 "Wurth Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "65100516121" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "710-65100516121" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    7700 2800
 	0    1    1    0   
 $EndComp
@@ -1156,6 +882,7 @@ F 4 "AVX" H 8800 -850 50  0001 C CNN "MFR"
 F 5 "F931A106KAA" H 8800 -850 50  0001 C CNN "MPN"
 F 6 "Mouser" H 8800 -850 50  0001 C CNN "SPR"
 F 7 "647-F931A106KAA" H 8800 -850 50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    10100 3200
 	1    0    0    -1  
 $EndComp
@@ -1197,21 +924,6 @@ F 3 "" H 10600 3450 50  0000 C CNN
 	1    10600 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10000 2950 10100 2950
-Wire Wire Line
-	10600 2850 10600 2950
-Wire Wire Line
-	10100 2950 10100 3050
-Wire Wire Line
-	9600 3350 9600 3450
-Wire Wire Line
-	10100 3350 10100 3450
-Wire Wire Line
-	10600 3350 10600 3450
-Connection ~ 9600 2950
-Connection ~ 10600 2950
-Connection ~ 10100 2950
 $Comp
 L mmdvm_hs_dual_hat-rescue:LD1117S33TR-RESCUE-mmdvm_hs_dual_hat U4
 U 1 1 5A8EDEF3
@@ -1221,6 +933,10 @@ F 1 "LD1117S33TR" H 9050 3200 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 9050 3100 50  0001 C CNN
 F 3 "https://www.mouser.com/ds/2/389/ld1117-974075.pdf" H 9050 3000 50  0001 C CNN
 F 4 "Mouser" H 9050 3000 60  0001 C CNN "SPR"
+F 5 "STMicroelectronics" H 0   0   50  0001 C CNN "MFR"
+F 6 "LD1117S33TR" H 0   0   50  0001 C CNN "MPN"
+F 7 "511-LD1117S33" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    9050 3000
 	1    0    0    -1  
 $EndComp
@@ -1235,8 +951,6 @@ F 3 "" H 8550 2850 50  0000 C CNN
 	1    8550 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9600 3050 9600 2950
 $Comp
 L power:GND #PWR0103
 U 1 1 5A8EDF01
@@ -1248,18 +962,6 @@ F 3 "" H 9050 3450 50  0000 C CNN
 	1    9050 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9450 2950 9600 2950
-Wire Wire Line
-	9600 2950 9700 2950
-Wire Wire Line
-	10600 2950 10600 3050
-Wire Wire Line
-	10100 2950 10600 2950
-Wire Wire Line
-	8650 2950 8550 2950
-Wire Wire Line
-	8550 2950 8550 2850
 $Comp
 L power:GND #PWR09
 U 1 1 5A7D83DE
@@ -1325,38 +1027,6 @@ F 3 "" H 1850 5750 50  0000 C CNN
 	1    1850 5750
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 6200 2    49   Input ~ 0
-DISP_TXD
-Text GLabel 1500 6300 2    49   Input ~ 0
-DISP_RXD
-Text GLabel 1550 5650 2    49   Input ~ 0
-SDA
-Text GLabel 1550 5550 2    49   Input ~ 0
-SCL
-Wire Wire Line
-	1400 6400 1500 6400
-Wire Wire Line
-	1500 6400 1500 6500
-Wire Wire Line
-	1400 6200 1500 6200
-Wire Wire Line
-	1400 6300 1500 6300
-Wire Wire Line
-	1450 6100 1400 6100
-Wire Wire Line
-	1450 6000 1450 6100
-Wire Wire Line
-	1400 5350 1500 5350
-Wire Wire Line
-	1500 5350 1500 5250
-Wire Wire Line
-	1400 5650 1550 5650
-Wire Wire Line
-	1400 5550 1550 5550
-Wire Wire Line
-	1400 5450 1850 5450
-Wire Wire Line
-	1850 5450 1850 5750
 $Comp
 L power:+3.3V #PWR053
 U 1 1 5A7D8418
@@ -1395,10 +1065,363 @@ F 3 "" H 1500 7500 50  0000 C CNN
 	1    1500 7500
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+3.3V #PWR061
+U 1 1 5A7ED3DB
+P 1500 7000
+F 0 "#PWR061" H 1500 6850 50  0001 C CNN
+F 1 "+3.3V" H 1500 7140 50  0000 C CNN
+F 2 "" H 1500 7000 50  0000 C CNN
+F 3 "" H 1500 7000 50  0000 C CNN
+	1    1500 7000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1500 850  2    49   Input ~ 0
+NRST
+Text GLabel 5550 4050 2    49   Input ~ 0
+BOOT0
+Text GLabel 1400 2700 0    49   Input ~ 0
+COS_LED
+Text GLabel 1400 3000 0    49   Input ~ 0
+PTT_LED
+Text GLabel 1400 3300 0    49   Input ~ 0
+DMR_LED
+Text GLabel 1400 3600 0    49   Input ~ 0
+DSTAR_LED
+Text GLabel 1400 4200 0    49   Input ~ 0
+P25_LED
+Text GLabel 1400 3900 0    49   Input ~ 0
+YSF_LED
+Text GLabel 5250 2550 2    60   Input ~ 0
+RXD
+Text GLabel 5250 2650 2    60   Input ~ 0
+TXD
+Text GLabel 5200 4150 2    49   Input ~ 0
+NRST
+Text GLabel 1400 2000 0    49   Input ~ 0
+SERVICE
+Text GLabel 3100 2350 0    60   Input ~ 0
+SDA
+Text GLabel 3100 2450 0    60   Input ~ 0
+SCL
+Text GLabel 1400 4500 0    49   Input ~ 0
+NXDN_LED
+Text GLabel 7450 3850 2    49   Input ~ 0
+BOOT1
+Text GLabel 6750 3850 0    49   Input ~ 0
+BOOT0
+Text GLabel 6550 2800 0    49   Input ~ 0
+D+
+Text GLabel 6550 2700 0    49   Input ~ 0
+D-
+Text GLabel 1500 6200 2    49   Input ~ 0
+DISP_TXD
+Text GLabel 1500 6300 2    49   Input ~ 0
+DISP_RXD
+Text GLabel 1550 5650 2    49   Input ~ 0
+SDA
+Text GLabel 1550 5550 2    49   Input ~ 0
+SCL
 Text GLabel 1500 7200 2    49   Input ~ 0
 SWDIO
 Text GLabel 1500 7300 2    49   Input ~ 0
 SWCLK
+Wire Wire Line
+	1050 850  1150 850 
+Wire Wire Line
+	1400 1250 1400 1300
+Wire Wire Line
+	1400 850  1400 950 
+Wire Wire Line
+	700  850  750  850 
+Wire Wire Line
+	700  800  700  850 
+Wire Wire Line
+	1350 1300 1400 1300
+Wire Wire Line
+	1150 850  1150 1000
+Wire Wire Line
+	1150 1000 700  1000
+Wire Wire Line
+	700  1000 700  1300
+Wire Wire Line
+	700  1300 750  1300
+Wire Wire Line
+	1400 850  1500 850 
+Wire Wire Line
+	1400 1300 1400 1350
+Wire Wire Line
+	1150 850  1400 850 
+Wire Wire Line
+	2300 750  2300 850 
+Wire Wire Line
+	2050 850  2300 850 
+Wire Wire Line
+	2550 850  2550 900 
+Wire Wire Line
+	2050 1250 2300 1250
+Wire Wire Line
+	2550 1250 2550 1200
+Wire Wire Line
+	2300 1200 2300 1250
+Wire Wire Line
+	2050 850  2050 900 
+Wire Wire Line
+	2050 1200 2050 1250
+Wire Wire Line
+	2300 850  2300 900 
+Wire Wire Line
+	2300 850  2550 850 
+Wire Wire Line
+	2300 1250 2550 1250
+Wire Wire Line
+	2300 1250 2300 1300
+Wire Wire Line
+	2300 2400 2300 2700
+Wire Wire Line
+	1400 2300 1400 2400
+Wire Wire Line
+	1400 2400 1500 2400
+Wire Wire Line
+	2900 2650 3250 2650
+Wire Wire Line
+	3250 4150 2950 4150
+Wire Wire Line
+	2900 2650 2900 2700
+Wire Wire Line
+	3250 3450 2950 3450
+Wire Wire Line
+	1400 2000 1500 2000
+Wire Wire Line
+	1800 2000 1900 2000
+Wire Wire Line
+	2300 2400 2200 2400
+Wire Wire Line
+	2300 2700 2200 2700
+Wire Wire Line
+	2300 3000 2200 3000
+Wire Wire Line
+	2300 3300 2200 3300
+Wire Wire Line
+	2300 3600 2200 3600
+Wire Wire Line
+	2300 3900 2200 3900
+Wire Wire Line
+	2300 4200 2200 4200
+Wire Wire Line
+	1900 4200 1800 4200
+Wire Wire Line
+	1500 4200 1400 4200
+Wire Wire Line
+	1900 3900 1800 3900
+Wire Wire Line
+	1500 3900 1400 3900
+Wire Wire Line
+	1400 3600 1500 3600
+Wire Wire Line
+	1900 3300 1800 3300
+Wire Wire Line
+	1900 3600 1800 3600
+Wire Wire Line
+	1500 3300 1400 3300
+Wire Wire Line
+	1400 3000 1500 3000
+Wire Wire Line
+	1800 3000 1900 3000
+Wire Wire Line
+	1500 2700 1400 2700
+Wire Wire Line
+	1800 2400 1900 2400
+Wire Wire Line
+	2950 3450 2950 4150
+Wire Wire Line
+	3250 2350 3100 2350
+Wire Wire Line
+	3250 2450 3100 2450
+Wire Wire Line
+	5150 2850 5350 2850
+Wire Wire Line
+	5150 3650 5200 3650
+Wire Wire Line
+	5150 3150 5350 3150
+Wire Wire Line
+	5150 3850 5200 3850
+Wire Wire Line
+	5200 3850 5200 3650
+Wire Wire Line
+	5350 2850 5350 3150
+Wire Wire Line
+	5150 4050 5200 4050
+Wire Wire Line
+	5500 4050 5550 4050
+Wire Wire Line
+	5150 2650 5250 2650
+Wire Wire Line
+	5400 2250 5300 2250
+Wire Wire Line
+	5300 2250 5300 2450
+Wire Wire Line
+	1900 4500 1800 4500
+Wire Wire Line
+	1500 4500 1400 4500
+Wire Wire Line
+	2300 2700 2300 3000
+Wire Wire Line
+	2300 3000 2300 3300
+Wire Wire Line
+	2300 3300 2300 3600
+Wire Wire Line
+	2300 3600 2300 3900
+Wire Wire Line
+	2300 3900 2300 4200
+Wire Wire Line
+	2950 4150 2950 4200
+Wire Wire Line
+	5350 3650 5350 3750
+Wire Wire Line
+	5350 3150 5350 3650
+Wire Wire Line
+	5200 3650 5350 3650
+Wire Wire Line
+	2200 4500 2300 4500
+Wire Wire Line
+	2300 4500 2300 4600
+Wire Wire Line
+	5150 2350 5250 2350
+Wire Wire Line
+	5250 2350 5250 2250
+Wire Wire Line
+	5150 2250 5250 2250
+Wire Wire Line
+	5250 2250 5250 2200
+Wire Wire Line
+	2300 4200 2300 4500
+Wire Wire Line
+	5300 2450 5150 2450
+Wire Wire Line
+	5400 2300 5400 2250
+Wire Wire Line
+	5150 2550 5250 2550
+Wire Wire Line
+	5150 4150 5200 4150
+Wire Wire Line
+	6900 2800 6950 2800
+Wire Wire Line
+	7150 2500 7150 2600
+Wire Wire Line
+	6950 2700 7400 2700
+Wire Wire Line
+	6900 2700 6950 2700
+Wire Wire Line
+	6950 2800 7350 2800
+Wire Wire Line
+	7350 2800 7400 2800
+Wire Wire Line
+	7150 2600 7150 2900
+Wire Wire Line
+	7300 3200 7300 3250
+Wire Wire Line
+	7450 3950 7450 4000
+Wire Wire Line
+	7350 3950 7450 3950
+Wire Wire Line
+	6750 3950 6850 3950
+Wire Wire Line
+	6750 4000 6750 3950
+Wire Wire Line
+	7450 3750 7450 3700
+Wire Wire Line
+	7350 3750 7450 3750
+Wire Wire Line
+	6750 3750 6850 3750
+Wire Wire Line
+	6750 3700 6750 3750
+Wire Wire Line
+	7350 3850 7450 3850
+Wire Wire Line
+	6750 3850 6850 3850
+Wire Wire Line
+	7350 2150 7350 2100
+Wire Wire Line
+	7350 2450 7350 2800
+Wire Wire Line
+	6950 2650 6950 2700
+Wire Wire Line
+	7150 2100 7150 2200
+Wire Wire Line
+	6550 2800 6600 2800
+Wire Wire Line
+	6550 2700 6600 2700
+Wire Wire Line
+	6950 3200 6950 3250
+Wire Wire Line
+	7150 3200 7150 3250
+Wire Wire Line
+	6950 2900 6950 2800
+Wire Wire Line
+	6950 2300 6950 2350
+Wire Wire Line
+	6700 2300 6950 2300
+Wire Wire Line
+	6700 2350 6700 2300
+Wire Wire Line
+	7300 3200 7800 3200
+Wire Wire Line
+	7150 2600 7400 2600
+Wire Wire Line
+	7300 3000 7300 3200
+Wire Wire Line
+	7400 3000 7300 3000
+Wire Wire Line
+	10000 2950 10100 2950
+Wire Wire Line
+	10600 2850 10600 2950
+Wire Wire Line
+	10100 2950 10100 3050
+Wire Wire Line
+	9600 3350 9600 3450
+Wire Wire Line
+	10100 3350 10100 3450
+Wire Wire Line
+	10600 3350 10600 3450
+Wire Wire Line
+	9600 3050 9600 2950
+Wire Wire Line
+	9450 2950 9600 2950
+Wire Wire Line
+	9600 2950 9700 2950
+Wire Wire Line
+	10600 2950 10600 3050
+Wire Wire Line
+	10100 2950 10600 2950
+Wire Wire Line
+	8650 2950 8550 2950
+Wire Wire Line
+	8550 2950 8550 2850
+Wire Wire Line
+	1400 6400 1500 6400
+Wire Wire Line
+	1500 6400 1500 6500
+Wire Wire Line
+	1400 6200 1500 6200
+Wire Wire Line
+	1400 6300 1500 6300
+Wire Wire Line
+	1450 6100 1400 6100
+Wire Wire Line
+	1450 6000 1450 6100
+Wire Wire Line
+	1400 5350 1500 5350
+Wire Wire Line
+	1500 5350 1500 5250
+Wire Wire Line
+	1400 5650 1550 5650
+Wire Wire Line
+	1400 5550 1550 5550
+Wire Wire Line
+	1400 5450 1850 5450
+Wire Wire Line
+	1850 5450 1850 5750
 Wire Wire Line
 	1400 7100 1500 7100
 Wire Wire Line
@@ -1411,17 +1434,6 @@ Wire Wire Line
 	1400 7200 1500 7200
 Wire Wire Line
 	1400 7300 1500 7300
-$Comp
-L power:+3.3V #PWR061
-U 1 1 5A7ED3DB
-P 1500 7000
-F 0 "#PWR061" H 1500 6850 50  0001 C CNN
-F 1 "+3.3V" H 1500 7140 50  0000 C CNN
-F 2 "" H 1500 7000 50  0000 C CNN
-F 3 "" H 1500 7000 50  0000 C CNN
-	1    1500 7000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 2700 1900 2700
 Wire Wire Line
@@ -1430,4 +1442,54 @@ Wire Wire Line
 	2200 2000 2300 2000
 Wire Wire Line
 	2300 2000 2300 1900
+Connection ~ 1400 850 
+Connection ~ 1400 1300
+Connection ~ 1150 850 
+Connection ~ 2300 850 
+Connection ~ 2300 1250
+Connection ~ 2300 2700
+Connection ~ 2300 3000
+Connection ~ 2300 3300
+Connection ~ 2300 3600
+Connection ~ 2300 3900
+Connection ~ 2300 4200
+Connection ~ 2950 4150
+Connection ~ 5350 3650
+Connection ~ 5350 3150
+Connection ~ 5200 3650
+Connection ~ 2300 4500
+Connection ~ 5250 2250
+Connection ~ 7350 2800
+Connection ~ 6950 2700
+Connection ~ 6950 2800
+Connection ~ 7150 2600
+Connection ~ 7300 3200
+Connection ~ 9600 2950
+Connection ~ 10600 2950
+Connection ~ 10100 2950
+NoConn ~ 3250 2550
+NoConn ~ 3250 2750
+NoConn ~ 3250 2850
+NoConn ~ 3250 2950
+NoConn ~ 3250 3150
+NoConn ~ 3250 3250
+NoConn ~ 3250 3350
+NoConn ~ 3250 3550
+NoConn ~ 3250 3650
+NoConn ~ 3250 3750
+NoConn ~ 3250 3850
+NoConn ~ 3250 3950
+NoConn ~ 3250 4050
+NoConn ~ 5150 3950
+NoConn ~ 5150 3750
+NoConn ~ 5150 3550
+NoConn ~ 5150 3450
+NoConn ~ 5150 3350
+NoConn ~ 5150 3250
+NoConn ~ 5150 3050
+NoConn ~ 5150 2950
+NoConn ~ 5150 2750
+NoConn ~ 3250 2250
+NoConn ~ 3250 3050
+NoConn ~ 7400 2900
 $EndSCHEMATC
