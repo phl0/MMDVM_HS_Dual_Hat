@@ -781,10 +781,10 @@ F 8 "" H -800 700 50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L mmdvm_hs_dual_hat-rescue:CONN_01X02-conn P1
+L mmdvm_hs_dual_hat-rescue:CONN_01X02-conn P2
 U 1 1 5897CEF8
 P 650 2700
-F 0 "P1" H 650 2850 50  0000 C CNN
+F 0 "P2" H 650 2850 50  0000 C CNN
 F 1 "SMA" V 750 2700 50  0000 C CNN
 F 2 "Connectors:SMA_THT_Jack_Straight" H 650 2700 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/C901-144-8RFX-710432.pdf" H 650 2700 50  0001 C CNN
@@ -792,7 +792,6 @@ F 4 "TE Connectivity" H -5000 1750 50  0001 C CNN "MFR"
 F 5 "5-1814832-1" H -5000 1750 50  0001 C CNN "MPN"
 F 6 "Mouser" H -5000 1750 50  0001 C CNN "SPR"
 F 7 "571-5-1814832-1" H -5000 1750 50  0001 C CNN "SPN"
-F 8 "" H -5000 1750 50  0001 C CNN "SPURL"
 	1    650  2700
 	-1   0    0    -1  
 $EndComp
@@ -1562,10 +1561,10 @@ F 3 "" H 3400 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mmdvm_hs_dual_hat-rescue:CONN_01X02-conn P2
+L mmdvm_hs_dual_hat-rescue:CONN_01X02-conn P1
 U 1 1 5A68D98C
 P 600 6500
-F 0 "P2" H 600 6650 50  0000 C CNN
+F 0 "P1" H 600 6650 50  0000 C CNN
 F 1 "SMA" V 700 6500 50  0000 C CNN
 F 2 "Connectors:SMA_THT_Jack_Straight" H 600 6500 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/18/C901-144-8RFX-710432.pdf" H 600 6500 50  0001 C CNN
@@ -1573,7 +1572,6 @@ F 4 "TE Connectivity" H -5050 5550 50  0001 C CNN "MFR"
 F 5 "5-1814832-1" H -5050 5550 50  0001 C CNN "MPN"
 F 6 "Mouser" H -5050 5550 50  0001 C CNN "SPR"
 F 7 "571-5-1814832-1" H -5050 5550 50  0001 C CNN "SPN"
-F 8 "" H -5050 5550 50  0001 C CNN "SPURL"
 	1    600  6500
 	-1   0    0    -1  
 $EndComp
