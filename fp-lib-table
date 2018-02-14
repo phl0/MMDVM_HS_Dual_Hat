@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name MMDVM)(type KiCad)(uri ${KIPRJMOD}/libraries)(options "")(descr ""))
+  (lib (name Logos)(type KiCad)(uri ${KIPRJMOD}/libraries/w_logo.pretty)(options "")(descr ""))
 )
