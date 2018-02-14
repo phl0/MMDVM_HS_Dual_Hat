@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 10612)
+    (start_pass_no 2096)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -77,12 +77,12 @@
     "Net-(D6-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D0-Pad2)" "Net-(J1-Pad1)" "Net-(J1-Pad7)" "Net-(J1-Pad11)" "Net-(J1-Pad12)"
     "Net-(J1-Pad13)" "Net-(J1-Pad15)" "Net-(J1-Pad16)" "Net-(J1-Pad17)" "Net-(J1-Pad18)" "Net-(J1-Pad19)" "Net-(J1-Pad21)" "Net-(J1-Pad22)"
     "Net-(J1-Pad23)" "Net-(J1-Pad24)" "Net-(J1-Pad26)" "Net-(J1-Pad27)" "Net-(J1-Pad28)" "Net-(J1-Pad29)" "Net-(J1-Pad31)" "Net-(J1-Pad32)"
-    "Net-(J1-Pad33)" "Net-(J1-Pad35)" "Net-(J1-Pad36)" "Net-(J1-Pad37)" "Net-(U1-Pad13)" "Net-(U1-Pad14)" "Net-(U1-Pad15)" "Net-(U1-Pad16)"
-    "Net-(U1-Pad17)" "Net-(U1-Pad18)" "Net-(U1-Pad20)" "Net-(U1-Pad21)" "Net-(U1-Pad23)" "Net-(U1-Pad30)" "Net-(U1-Pad33)" "Net-(U1-Pad36)"
-    "Net-(U1-Pad37)" "Net-(U1-Pad38)" "Net-(U1-Pad44)" "Net-(U1-Pad46)" "Net-(U2-Pad13)" "Net-(U2-Pad14)" "Net-(U2-Pad15)" "Net-(U2-Pad16)"
-    "Net-(U2-Pad17)" "Net-(U2-Pad18)" "Net-(U2-Pad20)" "Net-(U2-Pad21)" "Net-(U2-Pad23)" "Net-(U2-Pad30)" "Net-(U2-Pad33)" "Net-(U2-Pad36)"
-    "Net-(U2-Pad37)" "Net-(U2-Pad38)" "Net-(U2-Pad44)" "Net-(U2-Pad46)" "Net-(U3-Pad4)" "Net-(U3-Pad10)" "Net-(U3-Pad11)" "Net-(U3-Pad17)"
-    "Net-(U3-Pad21)" "Net-(U3-Pad22)" "Net-(U3-Pad38)" "Net-(U3-Pad46)" "Net-(X1-Pad1)" "Net-(X2-Pad1)"
+    "Net-(J1-Pad33)" "Net-(J1-Pad35)" "Net-(J1-Pad36)" "Net-(J1-Pad37)" "Net-(P8-Pad4)" "Net-(U1-Pad13)" "Net-(U1-Pad14)" "Net-(U1-Pad15)"
+    "Net-(U1-Pad16)" "Net-(U1-Pad17)" "Net-(U1-Pad18)" "Net-(U1-Pad20)" "Net-(U1-Pad21)" "Net-(U1-Pad23)" "Net-(U1-Pad30)" "Net-(U1-Pad33)"
+    "Net-(U1-Pad36)" "Net-(U1-Pad37)" "Net-(U1-Pad38)" "Net-(U1-Pad44)" "Net-(U1-Pad46)" "Net-(U2-Pad13)" "Net-(U2-Pad14)" "Net-(U2-Pad15)"
+    "Net-(U2-Pad16)" "Net-(U2-Pad17)" "Net-(U2-Pad18)" "Net-(U2-Pad20)" "Net-(U2-Pad21)" "Net-(U2-Pad23)" "Net-(U2-Pad30)" "Net-(U2-Pad33)"
+    "Net-(U2-Pad36)" "Net-(U2-Pad37)" "Net-(U2-Pad38)" "Net-(U2-Pad44)" "Net-(U2-Pad46)" "Net-(U3-Pad4)" "Net-(U3-Pad10)" "Net-(U3-Pad11)"
+    "Net-(U3-Pad17)" "Net-(U3-Pad21)" "Net-(U3-Pad22)" "Net-(U3-Pad38)" "Net-(U3-Pad46)" "Net-(X1-Pad1)" "Net-(X2-Pad1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

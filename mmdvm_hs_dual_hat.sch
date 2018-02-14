@@ -1836,10 +1836,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 6250 1450 6250
 Wire Wire Line
-	1900 5550 1900 5600
-Wire Wire Line
-	1400 5600 1650 5600
-Wire Wire Line
 	5150 6050 5250 6050
 Wire Wire Line
 	5150 6150 5250 6150
@@ -2020,10 +2016,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 2450 1500 2450
 Wire Wire Line
-	1950 1750 1950 1800
-Wire Wire Line
-	1450 1800 1700 1800
-Wire Wire Line
 	5200 2250 5300 2250
 Wire Wire Line
 	5200 2350 5300 2350
@@ -2182,10 +2174,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 6450 1500 6450
 Wire Wire Line
-	1650 5600 1900 5600
-Wire Wire Line
-	1900 5600 1900 5850
-Wire Wire Line
 	5650 6650 5650 6850
 Wire Wire Line
 	5900 6350 6200 6350
@@ -2215,10 +2203,6 @@ Wire Wire Line
 	2450 1850 2450 1900
 Wire Wire Line
 	1500 2650 1550 2650
-Wire Wire Line
-	1700 1800 1950 1800
-Wire Wire Line
-	1950 1800 1950 2050
 Wire Wire Line
 	5700 2850 5700 3050
 Wire Wire Line
@@ -2286,15 +2270,11 @@ Wire Wire Line
 Connection ~ 3800 5250
 Connection ~ 2400 5650
 Connection ~ 1450 6450
-Connection ~ 1650 5600
-Connection ~ 1900 5600
 Connection ~ 5650 6650
 Connection ~ 5900 6350
 Connection ~ 2250 6950
 Connection ~ 1800 6950
-Connection ~ 1800 6450
 Connection ~ 1900 6250
-Connection ~ 3150 4700
 Connection ~ 2850 5300
 Connection ~ 3350 4350
 Connection ~ 3550 4350
@@ -2304,15 +2284,11 @@ Connection ~ 4350 4600
 Connection ~ 3850 1450
 Connection ~ 2450 1850
 Connection ~ 1500 2650
-Connection ~ 1700 1800
-Connection ~ 1950 1800
 Connection ~ 5700 2850
 Connection ~ 5950 2550
 Connection ~ 2300 3150
 Connection ~ 1850 3150
-Connection ~ 1850 2650
 Connection ~ 1950 2450
-Connection ~ 3200 900 
 Connection ~ 2900 1500
 Connection ~ 3400 550 
 Connection ~ 3600 550 
@@ -2359,4 +2335,24 @@ NoConn ~ 5200 2450
 NoConn ~ 5200 2150
 NoConn ~ 5150 5950
 NoConn ~ 6750 4950
+Wire Wire Line
+	1950 1750 1950 1800
+Wire Wire Line
+	1450 1800 1700 1800
+Wire Wire Line
+	1700 1800 1950 1800
+Connection ~ 1700 1800
+Connection ~ 1950 1800
+Wire Wire Line
+	1950 1800 1950 2050
+Wire Wire Line
+	1900 5550 1900 5600
+Wire Wire Line
+	1400 5600 1650 5600
+Wire Wire Line
+	1650 5600 1900 5600
+Connection ~ 1650 5600
+Connection ~ 1900 5600
+Wire Wire Line
+	1900 5600 1900 5850
 $EndSCHEMATC
