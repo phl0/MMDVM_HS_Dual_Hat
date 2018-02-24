@@ -22,9 +22,15 @@ Enable the following settings in Config.h:
 
     #define MMDVM_HS_HAT_REV12
     #define ENABLE_ADF7021
+    #define DUPLEX
     #define ADF7021_14_7456
     #define STM32_USART1_HOST
     #define ENABLE_SCAN_MODE
+
+Optionally:
+
+    #define SEND_RSSI_DATA
+    #define SERIAL_REPEATE
 
 Build the firmware:
 
