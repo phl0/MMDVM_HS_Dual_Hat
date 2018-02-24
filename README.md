@@ -36,6 +36,11 @@ Build the firmware:
 
     make
 
+Make sure the two BOOT jumpers are set as follows:
+
+    BOOT0: completey removed
+    BOOT1: set to BOOT 1 -
+
 And finally upload the firmware to the MMDVM_HS_Dual_Hat:
 
     sudo make mmdvm_hs_dual_hat
