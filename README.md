@@ -20,7 +20,7 @@ For specific details about the firmware installation, check [these](https://gith
 
 Enable the following settings in Config.h: 
 
-    #define MMDVM_HS_HAT_REV12
+    #define MMDVM_HS_DUAL_HAT_REV10
     #define ENABLE_ADF7021
     #define DUPLEX
     #define ADF7021_14_7456
@@ -38,7 +38,7 @@ Build the firmware:
 
 And finally upload the firmware to the MMDVM_HS_Dual_Hat:
 
-    sudo make mmdvm_hs_hat
+    sudo make mmdvm_hs_dual_hat
 
 ### Update within Pi-Star
 
