@@ -30,7 +30,7 @@ Enable the following settings in Config.h:
 Optionally:
 
     #define SEND_RSSI_DATA
-    #define SERIAL_REPEATE
+    #define SERIAL_REPEATER
 
 Build the firmware:
 
