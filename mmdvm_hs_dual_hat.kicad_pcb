@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew no-vcs-found-104b606~61~ubuntu17.10.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc2-dev-unknown-31e78d6~62~ubuntu17.10.1)
 
   (general
     (thickness 1.6)
-    (drawings 55)
+    (drawings 57)
     (tracks 1230)
     (zones 0)
     (modules 192)
@@ -6873,6 +6873,12 @@
       (net 3 GND) (zone_connect 2))
   )
 
+  (gr_text RX (at 90.4 90.5) (layer F.SilkS) (tstamp 5A96AE24)
+    (effects (font (size 2 2) (thickness 0.5)) (justify left))
+  )
+  (gr_text TX (at 90.4 130.6) (layer F.SilkS)
+    (effects (font (size 2 2) (thickness 0.5)) (justify left))
+  )
   (gr_text "(c) 02/2018" (at 102.07 116.87) (layer F.SilkS)
     (effects (font (size 1.25 1.25) (thickness 0.25)))
   )
