@@ -6771,10 +6771,10 @@
       (net 3 GND) (zone_connect 2))
   )
 
-  (gr_text RX (at 90.4 90.5) (layer F.SilkS) (tstamp 5A96AE24)
+  (gr_text RX (at 99.85 92.6) (layer F.SilkS) (tstamp 5A96AE24)
     (effects (font (size 2 2) (thickness 0.5)) (justify left))
   )
-  (gr_text TX (at 90.4 130.6) (layer F.SilkS)
+  (gr_text TX (at 99.8 130.6) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.5)) (justify left))
   )
   (gr_text "(c) 02/2018" (at 102.07 116.87) (layer F.SilkS)
