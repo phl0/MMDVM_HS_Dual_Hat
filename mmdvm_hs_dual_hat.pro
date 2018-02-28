@@ -1,6 +1,6 @@
-update=Mittwoch, 07. Februar 2018 'u35' 00:35:40
+update=Mi 28 Feb 2018 22:11:02 CET
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -31,7 +31,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=/opt/MMDVM_HS_Dual_Hat/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

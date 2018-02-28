@@ -711,10 +711,10 @@ F 3 "" H 4250 4850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L mmdvm_hs_dual_hat-rescue:TCXO_DFAS11-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue X2
+L mmdvm_hs_dual_hat-rescue:TCXO_DFAS11-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue X1
 U 1 1 5897A831
 P 6250 1300
-F 0 "X2" H 6250 1600 50  0000 C CNN
+F 0 "X1" H 6250 1600 50  0000 C CNN
 F 1 "TCXO" H 6250 1300 50  0000 C CNN
 F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm" H 6250 1300 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/122/ECS-TXO-3225-608196.pdf" H 6250 1300 50  0001 C CNN
