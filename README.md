@@ -4,13 +4,11 @@ DB9MAT DF2ET DO7EN
 
 This PCB uses the [MMDVM_HS](https://github.com/juribeparada/MMDVM_HS) by Andy CA6JAU. It has two ADF7021 onboard and allows for duplex operation with two time slots on DMR.
 
-A beta version is currently under test.
-
 ![MMDVM_HS_Dual_Hat](https://github.com/phl0/MMDVM_HS_Dual_Hat/blob/master/mmdvm_hs_dual_hat.png)
 
 ## BOM
 
-Mouser cart for rev0.1 is [here](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=d7670cc8a6).
+Mouser cart for rev1.0 is [here](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=561bb01347).
 
 ## Firmware installation
 
