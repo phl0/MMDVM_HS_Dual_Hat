@@ -1,28 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Jumper:SolderJumper_2_Open
-#
-DEF Jumper:SolderJumper_2_Open JP 0 0 Y N 1 F N
-F0 "JP" 0 80 50 H V C CNN
-F1 "Jumper:SolderJumper_2_Open" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SolderJumper*Open*
-$ENDFPLIST
-DRAW
-A -10 0 40 901 -901 0 1 0 N -10 40 -10 -40
-A -10 0 40 901 -901 0 1 0 F -10 40 -10 -40
-A 10 0 40 -899 899 0 1 0 N 10 -40 10 40
-A 10 0 40 -899 899 0 1 0 F 10 -40 10 40
-P 2 0 1 0 -10 40 -10 -40 N
-P 2 0 1 0 10 40 10 -40 N
-X A 1 -150 0 100 R 50 50 1 1 P
-X B 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # adf7021:ADF7021
 #
 DEF adf7021:ADF7021 U 0 40 Y Y 1 F N
@@ -81,6 +59,45 @@ X RFIN 6 -1000 50 200 R 50 50 1 1 I
 X RFINB 7 -1000 -50 200 R 50 50 1 1 I
 X RLNA 8 -1000 -150 200 R 50 50 1 1 I
 X VDD4 9 -1000 -250 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# device:Jumper
+#
+DEF device:Jumper JP 0 30 Y N 1 F N
+F0 "JP" 0 150 50 H V C CNN
+F1 "device:Jumper" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
+C -100 0 35 0 1 0 N
+C 100 0 35 0 1 0 N
+X 1 1 -300 0 165 R 50 50 0 1 P
+X 2 2 300 0 165 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# device:L_Small
+#
+DEF device:L_Small L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "device:L_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
