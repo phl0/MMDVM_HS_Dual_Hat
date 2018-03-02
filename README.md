@@ -14,7 +14,7 @@ Initial release.
 
 ### Revision 1.1
 
-LEDs D4 and D5 interchanged to align with scan order. Solder jumper JP1 was added. It can be closed if the board is used on Raspberry Pi only. It ties BOOT1 to GND. BOOT0 is controlled via GPIO. The 2x3 pin header can be unpopulated in this case to save space.
+LEDs D4 and D5 interchanged to align with scan order. Solder jumper JP1 was added. It can be closed if the board is used on Raspberry Pi only. It ties BOOT1 to GND. BOOT0 is controlled via GPIO. The 2x3 pin header can be unpopulated in this case to save space. We placed two coils on U1 and U2 for experiments with extended VCO.
 
 ## BOM
 
