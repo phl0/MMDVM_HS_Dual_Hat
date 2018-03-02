@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "MMDVM_HS_Dual_Hat"
-Date "2018-02-05"
-Rev "0.1"
+Date "2018-03-02"
+Rev "1.1"
 Comp "DB9MAT+DF2ET+DO7EN"
 Comment1 ""
 Comment2 ""
@@ -1079,17 +1079,17 @@ $EndComp
 $Comp
 L mmdvm_hs_dual_hat-rescue:R-device-mmdvm_hs_dual_hat-rescue R30
 U 1 1 5A89671B
-P 7600 3850
-F 0 "R30" V 7680 3850 50  0000 C CNN
-F 1 "100k" V 7600 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 7530 3850 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 7600 3850 50  0001 C CNN
-F 4 "Vishay" H 850 1050 50  0001 C CNN "MFR"
-F 5 "CRCW0402100KFKED" H 850 1050 50  0001 C CNN "MPN"
-F 6 "Mouser" H 850 1050 50  0001 C CNN "SPR"
-F 7 "71-CRCW0402-100K-E3" H 850 1050 50  0001 C CNN "SPN"
-F 8 "" H 850 1050 50  0001 C CNN "SPURL"
-	1    7600 3850
+P 7850 3850
+F 0 "R30" V 7930 3850 50  0000 C CNN
+F 1 "100k" V 7850 3850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 7780 3850 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 7850 3850 50  0001 C CNN
+F 4 "Vishay" H 1100 1050 50  0001 C CNN "MFR"
+F 5 "CRCW0402100KFKED" H 1100 1050 50  0001 C CNN "MPN"
+F 6 "Mouser" H 1100 1050 50  0001 C CNN "SPR"
+F 7 "71-CRCW0402-100K-E3" H 1100 1050 50  0001 C CNN "SPN"
+F 8 "" H 1100 1050 50  0001 C CNN "SPURL"
+	1    7850 3850
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1138,7 +1138,7 @@ Text GLabel 3100 2450 0    60   Input ~ 0
 SCL
 Text GLabel 1400 4500 0    49   Input ~ 0
 NXDN_LED
-Text GLabel 7800 3850 2    49   Input ~ 0
+Text GLabel 8050 3850 2    49   Input ~ 0
 BOOT1
 Text GLabel 6400 3850 0    49   Input ~ 0
 BOOT0
@@ -1369,8 +1369,6 @@ Wire Wire Line
 Wire Wire Line
 	6750 3700 6750 3750
 Wire Wire Line
-	7350 3850 7450 3850
-Wire Wire Line
 	6750 3850 6850 3850
 Wire Wire Line
 	7350 2150 7350 2100
@@ -1474,8 +1472,6 @@ Wire Wire Line
 	1400 7200 1850 7200
 Wire Wire Line
 	6400 3850 6450 3850
-Wire Wire Line
-	7750 3850 7800 3850
 Connection ~ 1400 850 
 Connection ~ 1400 1300
 Connection ~ 1150 850 
@@ -1526,4 +1522,41 @@ NoConn ~ 5150 2750
 NoConn ~ 3250 2250
 NoConn ~ 3250 3050
 NoConn ~ 7400 2900
+Wire Wire Line
+	7350 3850 7600 3850
+Wire Wire Line
+	8000 3850 8050 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5A9B5613
+P 7800 4100
+F 0 "JP1" H 7800 3950 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 7800 3850 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7800 4100 50  0001 C CNN
+F 3 "~" H 7800 4100 50  0001 C CNN
+	1    7800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5A9B5A1F
+P 8100 4150
+F 0 "#PWR03" H 8100 3900 50  0001 C CNN
+F 1 "GND" H 8105 3977 50  0000 C CNN
+F 2 "" H 8100 4150 50  0001 C CNN
+F 3 "" H 8100 4150 50  0001 C CNN
+	1    8100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 4150 8100 4100
+Wire Wire Line
+	8100 4100 7950 4100
+Wire Wire Line
+	7650 4100 7600 4100
+Wire Wire Line
+	7600 4100 7600 3850
+Connection ~ 7600 3850
+Wire Wire Line
+	7600 3850 7700 3850
 $EndSCHEMATC
