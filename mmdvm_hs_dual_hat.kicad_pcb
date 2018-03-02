@@ -6862,7 +6862,7 @@
       (net 93 "Net-(L11-Pad1)"))
     (pad 2 smd rect (at 0.55 0) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
       (net 94 "Net-(L11-Pad2)"))
-    (model Capacitors_SMD.3dshapes/C_0402.wrl
+    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6898,7 +6898,7 @@
       (net 95 "Net-(L12-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
       (net 96 "Net-(L12-Pad1)"))
-    (model Capacitors_SMD.3dshapes/C_0402.wrl
+    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
