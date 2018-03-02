@@ -141,6 +141,22 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Jumper-device
+#
+DEF Jumper-device JP 0 30 Y N 1 F N
+F0 "JP" 0 150 50 H V C CNN
+F1 "Jumper-device" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
+C -100 0 35 0 1 0 N
+C 100 0 35 0 1 0 N
+X 1 1 -300 0 165 R 50 50 0 1 P
+X 2 2 300 0 165 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # L-device-mmdvm_hs_dual_hat-rescue
 #
 DEF L-device-mmdvm_hs_dual_hat-rescue L 0 40 N N 1 F N
@@ -200,6 +216,29 @@ P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L_Small-device
+#
+DEF L_Small-device L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "L_Small-device" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
