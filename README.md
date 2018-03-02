@@ -6,9 +6,19 @@ This PCB uses the [MMDVM_HS](https://github.com/juribeparada/MMDVM_HS) by Andy C
 
 ![MMDVM_HS_Dual_Hat](https://github.com/phl0/MMDVM_HS_Dual_Hat/blob/master/mmdvm_hs_dual_hat.png)
 
+## Revisions
+
+### Revision 1.0
+
+Initial release.
+
+### Revision 1.1
+
+LEDs D4 and D5 interchanged to align with scan order. Solder jumper JP1 was added. It can be closed if the board is used on Raspberry Pi only. It ties BOOT1 to GND. BOOT0 is controlled via GPIO. The 2x3 pin header can be unpopulated in this case to save space.
+
 ## BOM
 
-Mouser cart for rev1.0 is [here](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=561bb01347).
+Mouser cart for rev1.0 and rev1.1 is [here](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=561bb01347).
 
 ## Firmware installation
 
