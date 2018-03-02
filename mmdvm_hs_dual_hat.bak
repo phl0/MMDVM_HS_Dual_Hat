@@ -2239,12 +2239,12 @@ Wire Wire Line
 Wire Wire Line
 	6650 1900 6650 5250
 $Comp
-L device:L_Small L9
+L mmdvm_hs_dual_hat-rescue:L_Small-device L12
 U 1 1 5A9A9455
 P 3850 4850
-F 0 "L9" V 4035 4850 50  0000 C CNN
-F 1 "18uH" V 3944 4850 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 3850 4850 50  0001 C CNN
+F 0 "L12" V 4035 4850 50  0000 C CNN
+F 1 "18nH" V 3944 4850 50  0000 C CNN
+F 2 "Inductors_SMD:L_0402" H 3850 4850 50  0001 C CNN
 F 3 "" H 3850 4850 50  0001 C CNN
 	1    3850 4850
 	0    -1   -1   0   
@@ -2259,12 +2259,12 @@ Wire Wire Line
 	3650 5250 3850 5250
 Connection ~ 3650 5250
 $Comp
-L device:L_Small L10
+L mmdvm_hs_dual_hat-rescue:L_Small-device L11
 U 1 1 5A9D350B
 P 3900 1050
-F 0 "L10" V 4085 1050 50  0000 C CNN
-F 1 "18uH" V 3994 1050 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0402" H 3900 1050 50  0001 C CNN
+F 0 "L11" V 4085 1050 50  0000 C CNN
+F 1 "18nH" V 3994 1050 50  0000 C CNN
+F 2 "Inductors_SMD:L_0402" H 3900 1050 50  0001 C CNN
 F 3 "" H 3900 1050 50  0001 C CNN
 	1    3900 1050
 	0    -1   -1   0   

@@ -23,9 +23,11 @@ U3,STM32F103C8T6,Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm,1,STMicroelectronics,STM3
 L9,100MHz,Inductors_SMD:L_0402,1,Wurth Electronics,74279277,Mouser,710-74279277
 L10,10u,Inductors_SMD:L_0402,1,Wurth Electronics,74279277,Mouser,710-74279277
 L8;L7,13n,Inductors_SMD:L_0402,2,Murata Electronics,LQW15AN13NG80D,Mouser,81-LQW15AN13NG80D
+L12;L11,18n,Inductors_SMD:L_0402,2,TE Connectivity / Sigma Inductors,36501E18NJTDG,Mouser,279-36501E18NJTDG
 L4;L3,20n,Inductors_SMD:L_0402,2,TE Connectivity / Sigma Inductors,36501E20NJTDG,Mouser,279-36501E20NJTDG
 L2;L1,22n,Inductors_SMD:L_0402,2,Murata Electronics,LQW15CA22NJ00D,Mouser,81-LQW15CA22NJ00D
 L6;L5,27n,Inductors_SMD:L_0402,2,Murata Electronics,LQW15AN27NG80D,Mouser,81-LQW15AN27NG80D
+JP1,SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,1,,,,
 D6,amber,LEDs:LED_0402,1,Kingbright,APHHS1005SECK,Mouser,604-APHHS1005SECK
 D8,blue,LEDs:LED_0402,1,Kingbright, APHHS1005QBC/D,Mouser,604-APHHS1005QBCD
 D1;D4,green,LEDs:LED_0402,2,Kingbright,APHHS1005CGCK,Mouser,604-APHHS1005CGCK

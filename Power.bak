@@ -1525,7 +1525,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 3850 8050 3850
 $Comp
-L device:Jumper JP1
+L mmdvm_hs_dual_hat-rescue:Jumper-device JP1
 U 1 1 5A9B5613
 P 7800 4100
 F 0 "JP1" H 7800 3950 50  0000 C CNN
