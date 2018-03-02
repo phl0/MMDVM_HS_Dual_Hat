@@ -18,7 +18,9 @@ LEDs D4 and D5 interchanged to align with scan order. Solder jumper JP1 was adde
 
 ## BOM
 
-Mouser cart for rev1.0 and rev1.1 is [here](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=561bb01347).
+Mouser cart for rev1.0 is [here](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=561bb01347).
+
+[This](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=24ea9d644e) is the Mouser cart for rev1.1. L11 and L12 are optional.
 
 ## Firmware installation
 
