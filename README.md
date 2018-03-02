@@ -51,7 +51,21 @@ Flash page at addr: 0x0800f400 erased
 
 The device should now be usable as /dev/ttyACMx. 
 
-If you want to update the MMDVM_HS firmware itself later on via USB you can use the dfu upload method. Compile the firmware with "make bl" and then:
+If you want to update the MMDVM_HS firmware itself later on via USB you can use the dfu upload method. The settings in Config.h are:
+
+    #define MMDVM_HS_DUAL_HAT_REV10
+    #define ENABLE_ADF7021
+    #define DUPLEX
+    #define ADF7021_14_7456
+    #define STM32_USB_HOST
+    #define ENABLE_SCAN_MODE
+
+Optionally:
+
+    #define SEND_RSSI_DATA
+    #define SERIAL_REPEATER
+
+Compile the firmware with "make bl" and then:
 
 ```
 user@host:/opt/MMDVM_HS$ sudo make dfu devser=/dev/ttyACM3
