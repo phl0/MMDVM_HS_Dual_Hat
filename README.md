@@ -1,5 +1,5 @@
 # MMDVM_HS_Dual_Hat
-Duplex variant of MMDVM_HS_Hat beta
+Duplex variant of MMDVM_HS_Hat
 DB9MAT DF2ET DO7EN
 
 This PCB uses the [MMDVM_HS](https://github.com/juribeparada/MMDVM_HS) by Andy CA6JAU. It has two ADF7021 onboard and allows for duplex operation with two time slots on DMR.
@@ -12,9 +12,81 @@ Mouser cart for rev1.0 is [here](https://www.mouser.com/ProjectManager/ProjectDe
 
 ## Firmware installation
 
-### Compile and upload manually
+The device can be used on top on a RPi attached via the GPIO port or standalone and connected via USB. Both variants require different handling of compiling and uploading the firmware. The USB connection requires firmware with bootloader support whereas the GPIO version does not. 
 
-For specific details about the firmware installation, check [these](https://github.com/juribeparada/MMDVM_HS#build-de-firmware-and-upload-to-zumspot-rpi) instructions. The process is similar to the installation on the ZumSpot Pi.
+For USB connection a bootloader has to be installed initally. This requires STlink connection. After that is done the MMDVM_HS firmware upgrade can be done via the USB connection. The STlink connection can be used as fallback if wrongly configured firmware was installed for example.
+
+### Install the firmware with bootloader support for USB connection
+
+If you want to use the device via USB port you have to install a bootloader and build the firmware with bootloader support. As the raw device cannot be used with USB you have to use a USB-serial adapter or STlink device. Using STlink this can be done as follows:
+
+```
+user@host:/opt/MMDVM_HS$ make stlink-bl 
+././STM32F10X_Lib/utils/linux64/st-flash write ./STM32F10X_Lib/utils/bootloader/generic_boot20_pc13.bin 0x8000000
+2018-03-02T10:01:04 INFO src/usb.c: -- exit_dfu_mode
+2018-03-02T10:01:04 INFO src/common.c: Loading device parameters....
+2018-03-02T10:01:04 INFO src/common.c: Device connected is: F1 Medium-density device, id 0x20036410
+2018-03-02T10:01:04 INFO src/common.c: SRAM size: 0x5000 bytes (20 KiB), Flash: 0x10000 bytes (64 KiB) in pages of 1024 bytes
+2018-03-02T10:01:04 INFO src/common.c: Attempting to write 7160 (0x1bf8) bytes to stm32 address: 134217728 (0x8000000)
+Flash page at addr: 0x08001800 erased
+2018-03-02T10:01:04 INFO src/common.c: Finished erasing 7 pages of 1024 (0x400) bytes
+2018-03-02T10:01:04 INFO src/common.c: Starting Flash write for VL/F0/F3 core id
+2018-03-02T10:01:04 INFO src/common.c: Successfully loaded flash loader in sram
+  6/6 pages written
+2018-03-02T10:01:05 INFO src/common.c: Starting verification of write complete
+2018-03-02T10:01:05 INFO src/common.c: Flash written and verified! jolly good!
+././STM32F10X_Lib/utils/linux64/st-flash write bin/mmdvm_f1bl.bin 0x8002000
+2018-03-02T10:01:05 INFO src/common.c: Loading device parameters....
+2018-03-02T10:01:05 INFO src/common.c: Device connected is: F1 Medium-density device, id 0x20036410
+2018-03-02T10:01:05 INFO src/common.c: SRAM size: 0x5000 bytes (20 KiB), Flash: 0x10000 bytes (64 KiB) in pages of 1024 bytes
+2018-03-02T10:01:05 INFO src/common.c: Attempting to write 55016 (0xd6e8) bytes to stm32 address: 134225920 (0x8002000)
+Flash page at addr: 0x0800f400 erased
+2018-03-02T10:01:07 INFO src/common.c: Finished erasing 54 pages of 1024 (0x400) bytes
+2018-03-02T10:01:07 INFO src/common.c: Starting Flash write for VL/F0/F3 core id
+2018-03-02T10:01:07 INFO src/common.c: Successfully loaded flash loader in sram
+ 53/53 pages written
+2018-03-02T10:01:12 INFO src/common.c: Starting verification of write complete
+2018-03-02T10:01:13 INFO src/common.c: Flash written and verified! jolly good!
+```
+
+The device should now be usable as /dev/ttyACMx. 
+
+If you want to update the MMDVM_HS firmware itself later on via USB you can use the dfu upload method. Compile the firmware with "make bl" and then:
+
+```
+user@host:/opt/MMDVM_HS$ sudo make dfu devser=/dev/ttyACM3
+././STM32F10X_Lib/utils/linux64/upload-reset /dev/ttyACM3 750
+././STM32F10X_Lib/utils/linux64/dfu-util -D bin/mmdvm_f1bl.bin -d 1eaf:0003 -a 2 -R -R
+dfu-util 0.7
+
+Copyright 2005-2008 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2012 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to dfu-util@lists.gnumonks.org
+
+Filter on vendor = 0x1eaf product = 0x0003
+Opening DFU capable USB device... ID 1eaf:0003
+Run-time device DFU version 0110
+Found DFU: [1eaf:0003] devnum=0, cfg=1, intf=0, alt=2, name="STM32duino bootloader v1.0  Upload to Flash 0x8002000"
+Claiming USB DFU Interface...
+Setting Alternate Setting #2 ...
+Determining device status: state = dfuIDLE, status = 0
+dfuIDLE, continuing
+DFU mode device DFU version 0110
+Device returned transfer size 1024
+No valid DFU suffix signature
+Warning: File has no DFU suffix
+bytes_per_hash=1100
+Copying data from PC to DFU device
+Starting download: [##################################################] finished!
+state(8) = dfuMANIFEST-WAIT-RESET, status(0) = No error condition is present
+Done!
+Resetting USB to switch back to runtime mode
+```
+
+### Compile and upload manually for GPIO connection
+
+For specific details about the firmware installation, check [these](https://github.com/juribeparada/MMDVM_HS#build-de-firmware-and-upload-to-zumspot-rpi) instructions. The process is similar to the installation on the ZumSpot Pi. You can make use of the preconfigured scripts in MMDVM_HS. Editing Config.h by hand requires these settings:
 
 Enable the following settings in Config.h: 
 
