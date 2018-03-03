@@ -1109,20 +1109,15 @@ F 8 "" H -150 1050 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L mmdvm_hs_dual_hat-rescue:Jumper-device JP1
+L Connector:GS2 JP1
 U 1 1 5A9B5613
 P 7800 4100
 F 0 "JP1" H 7800 3950 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 7800 3850 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7800 4100 50  0001 C CNN
 F 3 "~" H 7800 4100 50  0001 C CNN
-F 4 "" H 0   0   50  0001 C CNN "MFR"
-F 5 "" H 0   0   50  0001 C CNN "MPN"
-F 6 "" H 0   0   50  0001 C CNN "SPR"
-F 7 "" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    7800 4100
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR03
@@ -1506,10 +1501,6 @@ Wire Wire Line
 Wire Wire Line
 	8100 4150 8100 4100
 Wire Wire Line
-	8100 4100 7950 4100
-Wire Wire Line
-	7650 4100 7600 4100
-Wire Wire Line
 	7600 4100 7600 3850
 Wire Wire Line
 	7600 3850 7700 3850
@@ -1564,4 +1555,6 @@ NoConn ~ 5150 2750
 NoConn ~ 3250 2250
 NoConn ~ 3250 3050
 NoConn ~ 7400 2900
+Wire Wire Line
+	8000 4100 8100 4100
 $EndSCHEMATC

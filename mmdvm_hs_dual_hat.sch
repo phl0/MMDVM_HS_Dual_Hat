@@ -2271,7 +2271,6 @@ NoConn ~ 3650 7600
 NoConn ~ 3550 7600
 NoConn ~ 4550 5350
 NoConn ~ 4650 5350
-NoConn ~ 5150 6250
 NoConn ~ 6950 1150
 NoConn ~ 5200 2750
 NoConn ~ 4600 3800
@@ -2285,7 +2284,64 @@ NoConn ~ 3700 3800
 NoConn ~ 3600 3800
 NoConn ~ 4600 1550
 NoConn ~ 4700 1550
-NoConn ~ 5200 2450
 NoConn ~ 5200 2150
 NoConn ~ 5150 5950
+Text GLabel 5300 2450 2    49   Output ~ 0
+SWD_TP2
+Wire Wire Line
+	5200 2450 5300 2450
+Wire Notes Line
+	3700 4600 4000 4600
+Wire Notes Line
+	4000 4600 4000 4950
+Wire Notes Line
+	4000 4950 3700 4950
+Wire Notes Line
+	3700 4950 3700 4600
+Wire Notes Line
+	3750 1150 4050 1150
+Wire Notes Line
+	4050 1150 4050 800 
+Wire Notes Line
+	4050 800  3750 800 
+Wire Notes Line
+	3750 800  3750 1150
+Text Notes 3700 4550 0    60   ~ 0
+opt-1
+Text Notes 3750 750  0    60   ~ 0
+opt-2
+Text GLabel 1450 4500 0    60   Input ~ 0
+SWD_TP2
+Wire Wire Line
+	1450 4500 1550 4500
+Wire Notes Line
+	900  4250 2200 4250
+Text GLabel 5250 6250 2    49   Output ~ 0
+SWD_TP1
+Wire Wire Line
+	5150 6250 5250 6250
+Text GLabel 1450 4850 0    60   Input ~ 0
+SWD_TP1
+Wire Wire Line
+	1450 4850 1550 4850
+Wire Notes Line
+	2200 5000 900  5000
+Wire Notes Line
+	2200 4250 2200 5000
+Wire Notes Line
+	900  4250 900  5000
+NoConn ~ 1550 4500
+Text Notes 1450 4350 0    60   ~ 0
+future testpoint
+$Comp
+L conn:TEST_1P W1
+U 1 1 5AAA77D4
+P 1550 4850
+F 0 "W1" H 1608 5015 50  0000 L CNN
+F 1 "TEST_1P" H 1608 4924 50  0000 L CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_1.0x1.0mm" H 1608 4833 50  0000 L CNN
+F 3 "" H 1750 4850 50  0000 C CNN
+	1    1550 4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
