@@ -1,24 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:GS2
-#
-DEF Connector:GS2 J 0 40 N N 1 F N
-F0 "J" 100 150 50 H V C CNN
-F1 "Connector:GS2" 100 -149 50 H V C CNN
-F2 "Connectors:GS2" 74 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- GS*
-$ENDFPLIST
-DRAW
-P 4 0 1 0 -40 -10 -40 -100 40 -100 40 -10 F
-P 4 0 1 0 -40 10 -40 100 40 100 40 10 F
-X G1 1 0 200 100 D 50 50 1 1 P
-X G2 2 0 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # adf7021:ADF7021
 #
 DEF adf7021:ADF7021 U 0 40 Y Y 1 F N
@@ -77,19 +59,6 @@ X RFIN 6 -1000 50 200 R 50 50 1 1 I
 X RFINB 7 -1000 -50 200 R 50 50 1 1 I
 X RLNA 8 -1000 -150 200 R 50 50 1 1 I
 X VDD4 9 -1000 -250 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# conn:TEST_1P
-#
-DEF conn:TEST_1P W 0 30 N N 1 F N
-F0 "W" 0 270 50 H V C CNN
-F1 "conn:TEST_1P" 0 200 50 H V C CNN
-F2 "" 200 0 50 H V C CNN
-F3 "" 200 0 50 H V C CNN
-DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -230,6 +199,24 @@ P 2 0 1 20 75 -50 75 50 N
 P 2 0 1 0 100 0 75 0 N
 X 1 1 -150 0 50 R 50 50 1 1 P
 X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mmdvm_hs_dual_hat-rescue:GS2-Connector
+#
+DEF mmdvm_hs_dual_hat-rescue:GS2-Connector J 0 40 N N 1 F N
+F0 "J" 100 150 50 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:GS2-Connector" 100 -149 50 H V C CNN
+F2 "Connectors:GS2" 74 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ GS*
+$ENDFPLIST
+DRAW
+P 4 0 1 0 -40 -10 -40 -100 40 -100 40 -10 F
+P 4 0 1 0 -40 10 -40 100 40 100 40 10 F
+X G1 1 0 200 100 D 50 50 1 1 P
+X G2 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -421,6 +408,19 @@ X VContr 1 -700 -150 300 R 50 50 1 1 P
 X GND 2 700 -150 300 L 50 50 1 1 P
 X FREQ 3 700 150 300 L 50 50 1 1 O
 X VCC 4 -700 150 300 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# mmdvm_hs_dual_hat-rescue:TEST_1P-conn
+#
+DEF mmdvm_hs_dual_hat-rescue:TEST_1P-conn W 0 30 N N 1 F N
+F0 "W" 0 270 50 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:TEST_1P-conn" 0 200 50 H V C CNN
+F2 "" 200 0 50 H V C CNN
+F3 "" 200 0 50 H V C CNN
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -2314,8 +2314,6 @@ Text GLabel 1450 4500 0    60   Input ~ 0
 SWD_TP2
 Wire Wire Line
 	1450 4500 1550 4500
-Wire Notes Line
-	900  4250 2200 4250
 Text GLabel 5250 6250 2    49   Output ~ 0
 SWD_TP1
 Wire Wire Line
@@ -2326,15 +2324,10 @@ Wire Wire Line
 	1450 4850 1550 4850
 Wire Notes Line
 	2200 5000 900  5000
-Wire Notes Line
-	2200 4250 2200 5000
-Wire Notes Line
-	900  4250 900  5000
-NoConn ~ 1550 4500
-Text Notes 1450 4350 0    60   ~ 0
+Text Notes 1450 4250 0    60   ~ 0
 future testpoint
 $Comp
-L conn:TEST_1P W1
+L mmdvm_hs_dual_hat-rescue:TEST_1P-conn W1
 U 1 1 5AAA77D4
 P 1550 4850
 F 0 "W1" H 1608 5015 50  0000 L CNN
@@ -2344,4 +2337,21 @@ F 3 "" H 1750 4850 50  0000 C CNN
 	1    1550 4850
 	1    0    0    -1  
 $EndComp
+$Comp
+L mmdvm_hs_dual_hat-rescue:TEST_1P-conn W2
+U 1 1 5A9EA804
+P 1550 4500
+F 0 "W2" H 1608 4665 50  0000 L CNN
+F 1 "TEST_1P" H 1608 4574 50  0000 L CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_1.0x1.0mm" H 1608 4483 50  0000 L CNN
+F 3 "" H 1750 4500 50  0000 C CNN
+	1    1550 4500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2200 4150 900  4150
+Wire Notes Line
+	2200 4150 2200 5000
+Wire Notes Line
+	900  4150 900  5000
 $EndSCHEMATC

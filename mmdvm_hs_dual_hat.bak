@@ -2339,7 +2339,7 @@ U 1 1 5AAA77D4
 P 1550 4850
 F 0 "W1" H 1608 5015 50  0000 L CNN
 F 1 "TEST_1P" H 1608 4924 50  0000 L CNN
-F 2 "Connectors_TestPoints:Test_Point_THTPad_1.0x1.0mm_Drill0.5mm" H 1608 4833 50  0000 L CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_1.0x1.0mm" H 1608 4833 50  0000 L CNN
 F 3 "" H 1750 4850 50  0000 C CNN
 	1    1550 4850
 	1    0    0    -1  

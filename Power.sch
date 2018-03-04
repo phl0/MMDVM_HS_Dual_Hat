@@ -1109,7 +1109,7 @@ F 8 "" H -150 1050 50  0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:GS2 JP1
+L mmdvm_hs_dual_hat-rescue:GS2-Connector JP1
 U 1 1 5A9B5613
 P 7800 4100
 F 0 "JP1" H 7800 3950 50  0000 C CNN
