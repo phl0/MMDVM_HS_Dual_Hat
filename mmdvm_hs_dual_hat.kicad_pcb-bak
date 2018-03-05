@@ -3,9 +3,9 @@
   (general
     (thickness 1.6)
     (drawings 57)
-    (tracks 1261)
+    (tracks 1259)
     (zones 0)
-    (modules 195)
+    (modules 198)
     (nets 100)
   )
 
@@ -24,7 +24,7 @@
     (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
-    (36 B.SilkS user)
+    (36 B.SilkS user hide)
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
@@ -41,7 +41,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.5)
     (user_trace_width 0.01)
     (user_trace_width 0.02)
     (user_trace_width 0.05)
@@ -312,6 +312,42 @@
     (add_net YSF_LED)
   )
 
+  (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 5A84609C) (tstamp 5A9D28E9)
+    (at 134.1 92.9)
+    (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 3 GND) (zone_connect 2))
+  )
+
+  (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 5A84609C) (tstamp 5A9D28DF)
+    (at 139.55 94.05)
+    (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 3 GND) (zone_connect 2))
+  )
+
+  (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 5A84609C) (tstamp 5A9D28D5)
+    (at 137.2 95.25)
+    (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 3 GND) (zone_connect 2))
+  )
+
   (module Inductors_SMD:L_0402 (layer F.Cu) (tedit 5A99B0A6) (tstamp 5A99ACDE)
     (at 112.44 97.79)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
@@ -354,7 +390,7 @@
     (tags "resistor 0402")
     (path /5A9A9455)
     (attr smd)
-    (fp_text reference L12 (at -1.35 0.02 90) (layer F.SilkS)
+    (fp_text reference L12 (at -1.53 0.01 90) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_text value 18n (at 0 1.8) (layer F.Fab)
@@ -3711,7 +3747,7 @@
     (tags "resistor 0402")
     (path /58977A3D)
     (attr smd)
-    (fp_text reference R8 (at -0.39 -1.1 90) (layer F.SilkS)
+    (fp_text reference R8 (at 0.01 -1.28 90) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_text value 560 (at 0 1.8 90) (layer F.Fab)
@@ -3769,7 +3805,7 @@
     (tags "resistor 0402")
     (path /58977B33)
     (attr smd)
-    (fp_text reference R10 (at -1.84 1.45) (layer F.SilkS)
+    (fp_text reference R10 (at -1.89 0.85 90) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_text value 270 (at 0 1.8 90) (layer F.Fab)
@@ -4434,7 +4470,7 @@
     )
   )
 
-  (module Inductors_SMD:L_0402 (layer F.Cu) (tedit 5A761D5A) (tstamp 5A689ACF)
+  (module Inductors_SMD:L_0402 (layer F.Cu) (tedit 5A761D5A) (tstamp 5A9D2929)
     (at 131.13 90.35 180)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
@@ -7173,6 +7209,9 @@
   (gr_line (start 93.25 138.5) (end 152.25 138.5) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 155.25 85.5) (end 155.25 135.5) (angle 90) (layer Edge.Cuts) (width 0.1))
 
+  (segment (start 132.25 91.4) (end 131.92 91.73) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 132.73 91.4) (end 132.25 91.4) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 131.92 91.73) (end 131.92 92.78) (width 0.5) (layer F.Cu) (net 3))
   (segment (start 120.3 115.86) (end 119.04 115.86) (width 0.5) (layer F.Cu) (net 3))
   (segment (start 119.04 115.86) (end 117.76 115.86) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 119.05 119.34) (end 119.05 116.97) (width 0.25) (layer F.Cu) (net 28))
@@ -7337,9 +7376,6 @@
   (segment (start 148.8 112.476) (end 148.8 110.101) (width 0.25) (layer F.Cu) (net 3) (status 30))
   (segment (start 148.8 107.776) (end 148.8 105.426) (width 0.25) (layer F.Cu) (net 3) (status 30))
   (segment (start 148.8 105.426) (end 148.8 102.901) (width 0.25) (layer F.Cu) (net 3) (status 30))
-  (segment (start 132.1547 91.97) (end 132.1547 91.4) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 131.92 92.2047) (end 132.1547 91.97) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 132.73 91.4) (end 132.1547 91.4) (width 0.25) (layer F.Cu) (net 3) (status 10))
   (segment (start 152.855 124.66) (end 152.855 127.2) (width 0.25) (layer B.Cu) (net 3) (status 30))
   (segment (start 112.2 100.45) (end 112.3595 100.6095) (width 0.25) (layer F.Cu) (net 3) (status 30))
   (segment (start 112.2 99.3) (end 112.2 100.45) (width 0.25) (layer F.Cu) (net 3) (status 30))
@@ -7384,8 +7420,6 @@
   (segment (start 104.0406 107.0747) (end 104.04 107.0747) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 104.14 106.9753) (end 104.0406 107.0747) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 98.59 98.44) (end 98.59 93.36) (width 0.25) (layer B.Cu) (net 3) (status 30))
-  (segment (start 131.92 92.4923) (end 131.92 92.2047) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 131.92 92.4923) (end 131.92 92.78) (width 0.25) (layer F.Cu) (net 3) (status 20))
   (segment (start 131.92 94.0697) (end 132.375 94.5247) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 131.92 92.78) (end 131.92 94.0697) (width 0.25) (layer F.Cu) (net 3) (status 10))
   (segment (start 132.375 95.6) (end 132.375 94.5247) (width 0.25) (layer F.Cu) (net 3) (status 10))
@@ -9357,6 +9391,14 @@
     )
     (filled_polygon
       (pts
+        (xy 140.085845 92.662577) (xy 140.011952 92.711951) (xy 139.962578 92.785844) (xy 139.962576 92.785846) (xy 139.816348 93.004691)
+        (xy 139.747663 93.35) (xy 139.765001 93.437165) (xy 139.765 95.374664) (xy 139.765001 95.374669) (xy 139.765001 95.604413)
+        (xy 139.652235 95.626843) (xy 139.5 95.728564) (xy 139.347765 95.626843) (xy 139.235 95.604413) (xy 139.235 92.57244)
+        (xy 140.175982 92.57244)
+      )
+    )
+    (filled_polygon
+      (pts
         (xy 144.102 95.15) (xy 144.122 95.15) (xy 144.122 95.256962) (xy 144.089172 95.422) (xy 143.848 95.422)
         (xy 143.848 95.4) (xy 143.828 95.4) (xy 143.828 95.15) (xy 143.848 95.15) (xy 143.848 95.128)
         (xy 144.102 95.128)
@@ -9697,6 +9739,21 @@
         (xy 123.633204 100.491763) (xy 123.465229 100.240371) (xy 123.401773 100.197971) (xy 115.991931 92.78813) (xy 115.949529 92.724671)
         (xy 115.698137 92.556696) (xy 115.476452 92.5126) (xy 115.476447 92.5126) (xy 115.4016 92.497712) (xy 115.326753 92.5126)
         (xy 110.984802 92.5126) (xy 107.112103 88.639902) (xy 107.362734 88.472435)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 143.935275 88.71165) (xy 144.372402 88.7986) (xy 144.667598 88.7986) (xy 145.104725 88.71165) (xy 145.1111 88.70739)
+        (xy 145.111101 95.908697) (xy 144.1656 96.854198) (xy 144.1656 96.625817) (xy 144.023255 96.282165) (xy 143.760235 96.019145)
+        (xy 143.416583 95.8768) (xy 143.044617 95.8768) (xy 142.700965 96.019145) (xy 142.4745 96.24561) (xy 142.4745 96.17969)
+        (xy 142.507155 96.147035) (xy 142.6495 95.803383) (xy 142.6495 95.431417) (xy 142.53923 95.1652) (xy 142.60111 95.1652)
+        (xy 142.633765 95.197855) (xy 142.977417 95.3402) (xy 143.349383 95.3402) (xy 143.693035 95.197855) (xy 143.956055 94.934835)
+        (xy 144.0984 94.591183) (xy 144.0984 94.219217) (xy 143.956055 93.875565) (xy 143.693035 93.612545) (xy 143.349383 93.4702)
+        (xy 142.977417 93.4702) (xy 142.633765 93.612545) (xy 142.60111 93.6452) (xy 142.092648 93.6452) (xy 142.0178 93.630312)
+        (xy 141.942952 93.6452) (xy 141.942948 93.6452) (xy 141.769405 93.67972) (xy 141.721262 93.689296) (xy 141.534218 93.814276)
+        (xy 141.469871 93.857271) (xy 141.427471 93.920727) (xy 135.465573 99.882626) (xy 135.335383 99.8287) (xy 134.963417 99.8287)
+        (xy 134.619765 99.971045) (xy 134.58711 100.0037) (xy 133.290002 100.0037) (xy 132.789846 99.503544) (xy 132.869055 99.424335)
+        (xy 133.0114 99.080683) (xy 133.0114 99.034501) (xy 143.574989 88.470914)
       )
     )
     (filled_polygon
