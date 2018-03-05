@@ -3,9 +3,9 @@
   (general
     (thickness 1.6)
     (drawings 57)
-    (tracks 1259)
+    (tracks 1255)
     (zones 0)
-    (modules 198)
+    (modules 200)
     (nets 100)
   )
 
@@ -310,6 +310,30 @@
     (add_net SWD_TP2)
     (add_net TXD)
     (add_net YSF_LED)
+  )
+
+  (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 5A84609C) (tstamp 5A9D295F)
+    (at 122.95 96)
+    (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 3 GND) (zone_connect 2))
+  )
+
+  (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 5A84609C) (tstamp 5A9D2955)
+    (at 124.65 97)
+    (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 3 GND) (zone_connect 2))
   )
 
   (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 5A84609C) (tstamp 5A9D28E9)
@@ -7612,12 +7636,8 @@
   (segment (start 119.9 92.61) (end 119.31 92.61) (width 0.5) (layer F.Cu) (net 3) (status 30))
   (segment (start 118.72 92.61) (end 117.88 93.45) (width 0.5) (layer F.Cu) (net 3) (status 20))
   (segment (start 119.31 92.61) (end 118.72 92.61) (width 0.5) (layer F.Cu) (net 3) (status 10))
-  (segment (start 124.8 93.46) (end 124.2247 93.46) (width 0.25) (layer F.Cu) (net 3) (status 10))
   (segment (start 120.243 91.677) (end 120.4697 91.677) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 119.31 92.61) (end 120.243 91.677) (width 0.25) (layer F.Cu) (net 3) (status 10))
-  (segment (start 124.2247 92.9566) (end 124.2247 93.46) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 122.9451 91.677) (end 124.2247 92.9566) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 120.4697 91.677) (end 122.9451 91.677) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 121.2885 85.9489) (end 121.66 85.9489) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 120.4697 86.7677) (end 121.2885 85.9489) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 120.4697 91.677) (end 120.4697 86.7677) (width 0.25) (layer F.Cu) (net 3))
@@ -9364,6 +9384,20 @@
       (pts
         (xy 107.670389 100.555191) (xy 107.6541 100.594517) (xy 107.6541 100.69) (xy 106.029982 100.69) (xy 105.9 100.49547)
         (xy 105.9 100.074846) (xy 105.911904 100.015) (xy 107.130199 100.015)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 124.302235 95.458157) (xy 124.55 95.50744) (xy 125.05 95.50744) (xy 125.297765 95.458157) (xy 125.317456 95.445)
+        (xy 128.00256 95.445) (xy 128.00256 96.35) (xy 128.051843 96.597765) (xy 128.192191 96.807809) (xy 128.402235 96.948157)
+        (xy 128.65 96.99744) (xy 128.74 96.99744) (xy 128.74 97.818353) (xy 128.674752 97.861951) (xy 128.625378 97.935844)
+        (xy 128.625376 97.935846) (xy 128.479148 98.154691) (xy 128.410463 98.5) (xy 128.427801 98.587165) (xy 128.4278 99.320621)
+        (xy 128.133422 99.615) (xy 128.0511 99.615) (xy 128.0511 99.276717) (xy 127.908755 98.933065) (xy 127.74054 98.76485)
+        (xy 127.805755 98.699635) (xy 127.9481 98.355983) (xy 127.9481 97.984017) (xy 127.805755 97.640365) (xy 127.542735 97.377345)
+        (xy 127.199083 97.235) (xy 126.827117 97.235) (xy 126.483465 97.377345) (xy 126.45081 97.41) (xy 122.389936 97.41)
+        (xy 122.418157 97.367765) (xy 122.46744 97.12) (xy 122.46744 96.62) (xy 122.418157 96.372235) (xy 122.28 96.16547)
+        (xy 122.28 96.004847) (xy 122.294888 95.93) (xy 122.28 95.855153) (xy 122.28 95.855148) (xy 122.235904 95.633463)
+        (xy 122.185107 95.55744) (xy 122.8 95.55744) (xy 123.047765 95.508157) (xy 123.142285 95.445) (xy 124.282544 95.445)
       )
     )
     (filled_polygon
