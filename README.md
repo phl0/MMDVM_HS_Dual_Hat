@@ -16,6 +16,8 @@ Initial release.
 
 LEDs D4 and D5 interchanged to align with scan order. Solder jumper JP1 was added. It can be closed if the board is used on Raspberry Pi only. It ties BOOT1 to GND. BOOT0 is controlled via GPIO. The 2x3 pin header can be unpopulated in this case to save space. We placed two coils on U1 and U2 for experiments with extended VCO. These are L11 and L12 and they are optional and do not need to be inserted for UHF use. Testpoints TP1 and TP2 on backside allows the demodulator output SNR to be measured with #define TEST_DAC compiled firmware.
 
+**This version is not recommended for (re-)production!**
+
 ### Revision 1.2
 
 An accidentially deleted 3v3 wire has been added back to the PCB layout. BOM, Mouser cart and stencil stay the same as for rev1.1.
