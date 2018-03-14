@@ -7139,7 +7139,7 @@
   (gr_text SRV (at 136.77 114.27) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "MMDVM_HS_Dual_Hat\nDB9MAT DF2ET DO7EN\nRevision v1.1" (at 95.97 112.6) (layer F.SilkS)
+  (gr_text "MMDVM_HS_Dual_Hat\nDB9MAT DF2ET DO7EN\nRevision v1.2" (at 95.97 112.6) (layer F.SilkS)
     (effects (font (size 1.25 1.25) (thickness 0.25)) (justify left))
   )
   (dimension 56 (width 0.15) (layer Dwgs.User) (tstamp 5A73AABC)
