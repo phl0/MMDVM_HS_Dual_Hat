@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "MMDVM_HS_Dual_Hat"
-Date "2018-02-05"
-Rev "1.0"
+Date "2018-03-13"
+Rev "1.2"
 Comp "DB9MAT+DF2ET+DO7EN"
 Comment1 ""
 Comment2 ""
@@ -615,11 +615,11 @@ P 3150 4850
 F 0 "C22" H 3175 4950 50  0000 L CNN
 F 1 "470p" H 3175 4750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 3188 4700 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/281/c03e-516224.pdf" H 3150 4850 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 3150 4850 50  0001 C CNN
 F 4 "Murata Electronics" H -1150 650 50  0001 C CNN "MFR"
-F 5 "GCG1555G1H471JA01D" H -1150 650 50  0001 C CNN "MPN"
+F 5 "GCM1555C1H471JA16J" H -1150 650 50  0001 C CNN "MPN"
 F 6 "Mouser" H -1150 650 50  0001 C CNN "SPR"
-F 7 "81-GCG1555G1H471JA1D" H -1150 650 50  0001 C CNN "SPN"
+F 7 "81-GCM1555C1H471JA6J" H -1150 650 50  0001 C CNN "SPN"
 F 8 "" H -1150 650 50  0001 C CNN "SPURL"
 	1    3150 4850
 	1    0    0    -1  
@@ -1423,11 +1423,11 @@ P 3200 1050
 F 0 "C21" H 3225 1150 50  0000 L CNN
 F 1 "470p" H 3225 950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 3238 900 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/281/c03e-516224.pdf" H 3200 1050 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/281/murata_03122018_GCM_Series-1310150.pdf" H 3200 1050 50  0001 C CNN
 F 4 "Murata Electronics" H -1100 -3150 50  0001 C CNN "MFR"
-F 5 "GCG1555G1H471JA01D" H -1100 -3150 50  0001 C CNN "MPN"
+F 5 "GCM1555C1H471JA16J" H -1100 -3150 50  0001 C CNN "MPN"
 F 6 "Mouser" H -1100 -3150 50  0001 C CNN "SPR"
-F 7 "81-GCG1555G1H471JA1D" H -1100 -3150 50  0001 C CNN "SPN"
+F 7 "81-GCM1555C1H471JA6J" H -1100 -3150 50  0001 C CNN "SPN"
 F 8 "" H -1100 -3150 50  0001 C CNN "SPURL"
 	1    3200 1050
 	1    0    0    -1  
@@ -1741,6 +1741,38 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    3900 1050
 	0    -1   -1   0   
 $EndComp
+$Comp
+L mmdvm_hs_dual_hat-rescue:TEST_1P-conn W1
+U 1 1 5AAA77D4
+P 1550 4850
+F 0 "W1" H 1608 5015 50  0000 L CNN
+F 1 "TEST_1P" H 1608 4924 50  0000 L CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_1.0x1.0mm" H 1608 4833 50  0000 L CNN
+F 3 "" H 1750 4850 50  0000 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MFR"
+F 5 "" H 0   0   50  0001 C CNN "MPN"
+F 6 "" H 0   0   50  0001 C CNN "SPR"
+F 7 "" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    1550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs_dual_hat-rescue:TEST_1P-conn W2
+U 1 1 5A9EA804
+P 1550 4500
+F 0 "W2" H 1608 4665 50  0000 L CNN
+F 1 "TEST_1P" H 1608 4574 50  0000 L CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_1.0x1.0mm" H 1608 4483 50  0000 L CNN
+F 3 "" H 1750 4500 50  0000 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MFR"
+F 5 "" H 0   0   50  0001 C CNN "MPN"
+F 6 "" H 0   0   50  0001 C CNN "SPR"
+F 7 "" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    1550 4500
+	1    0    0    -1  
+$EndComp
 Text GLabel 5250 6750 2    49   Input ~ 0
 SCLK
 Text GLabel 5250 6850 2    49   Input ~ 0
@@ -1769,6 +1801,20 @@ Text GLabel 5700 2250 2    49   Input ~ 0
 DCLK2
 Text GLabel 4700 3900 3    49   Input ~ 0
 CE
+Text GLabel 5300 2450 2    49   Output ~ 0
+SWD_TP2
+Text Notes 3700 4550 0    60   ~ 0
+opt-1
+Text Notes 3750 750  0    60   ~ 0
+opt-2
+Text GLabel 1450 4500 0    60   Input ~ 0
+SWD_TP2
+Text GLabel 5250 6250 2    49   Output ~ 0
+SWD_TP1
+Text GLabel 1450 4850 0    60   Input ~ 0
+SWD_TP1
+Text Notes 1450 4250 0    60   ~ 0
+future testpoint
 Wire Wire Line
 	1800 6250 1900 6250
 Wire Wire Line
@@ -2223,6 +2269,38 @@ Wire Wire Line
 	3700 1450 3700 1350
 Wire Wire Line
 	3700 1450 3900 1450
+Wire Wire Line
+	5200 2450 5300 2450
+Wire Notes Line
+	3700 4600 4000 4600
+Wire Notes Line
+	4000 4600 4000 4950
+Wire Notes Line
+	4000 4950 3700 4950
+Wire Notes Line
+	3700 4950 3700 4600
+Wire Notes Line
+	3750 1150 4050 1150
+Wire Notes Line
+	4050 1150 4050 800 
+Wire Notes Line
+	4050 800  3750 800 
+Wire Notes Line
+	3750 800  3750 1150
+Wire Wire Line
+	1450 4500 1550 4500
+Wire Wire Line
+	5150 6250 5250 6250
+Wire Wire Line
+	1450 4850 1550 4850
+Wire Notes Line
+	2200 5000 900  5000
+Wire Notes Line
+	2200 4150 900  4150
+Wire Notes Line
+	2200 4150 2200 5000
+Wire Notes Line
+	900  4150 900  5000
 Connection ~ 2400 5650
 Connection ~ 1450 6450
 Connection ~ 5650 6650
@@ -2286,72 +2364,4 @@ NoConn ~ 4600 1550
 NoConn ~ 4700 1550
 NoConn ~ 5200 2150
 NoConn ~ 5150 5950
-Text GLabel 5300 2450 2    49   Output ~ 0
-SWD_TP2
-Wire Wire Line
-	5200 2450 5300 2450
-Wire Notes Line
-	3700 4600 4000 4600
-Wire Notes Line
-	4000 4600 4000 4950
-Wire Notes Line
-	4000 4950 3700 4950
-Wire Notes Line
-	3700 4950 3700 4600
-Wire Notes Line
-	3750 1150 4050 1150
-Wire Notes Line
-	4050 1150 4050 800 
-Wire Notes Line
-	4050 800  3750 800 
-Wire Notes Line
-	3750 800  3750 1150
-Text Notes 3700 4550 0    60   ~ 0
-opt-1
-Text Notes 3750 750  0    60   ~ 0
-opt-2
-Text GLabel 1450 4500 0    60   Input ~ 0
-SWD_TP2
-Wire Wire Line
-	1450 4500 1550 4500
-Text GLabel 5250 6250 2    49   Output ~ 0
-SWD_TP1
-Wire Wire Line
-	5150 6250 5250 6250
-Text GLabel 1450 4850 0    60   Input ~ 0
-SWD_TP1
-Wire Wire Line
-	1450 4850 1550 4850
-Wire Notes Line
-	2200 5000 900  5000
-Text Notes 1450 4250 0    60   ~ 0
-future testpoint
-$Comp
-L mmdvm_hs_dual_hat-rescue:TEST_1P-conn W1
-U 1 1 5AAA77D4
-P 1550 4850
-F 0 "W1" H 1608 5015 50  0000 L CNN
-F 1 "TEST_1P" H 1608 4924 50  0000 L CNN
-F 2 "Connectors_TestPoints:Test_Point_Pad_1.0x1.0mm" H 1608 4833 50  0000 L CNN
-F 3 "" H 1750 4850 50  0000 C CNN
-	1    1550 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L mmdvm_hs_dual_hat-rescue:TEST_1P-conn W2
-U 1 1 5A9EA804
-P 1550 4500
-F 0 "W2" H 1608 4665 50  0000 L CNN
-F 1 "TEST_1P" H 1608 4574 50  0000 L CNN
-F 2 "Connectors_TestPoints:Test_Point_Pad_1.0x1.0mm" H 1608 4483 50  0000 L CNN
-F 3 "" H 1750 4500 50  0000 C CNN
-	1    1550 4500
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	2200 4150 900  4150
-Wire Notes Line
-	2200 4150 2200 5000
-Wire Notes Line
-	900  4150 900  5000
 $EndSCHEMATC

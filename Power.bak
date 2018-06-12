@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "MMDVM_HS_Dual_Hat"
-Date "2018-03-02"
-Rev "1.1"
+Date "2018-06-12"
+Rev "1.3"
 Comp "DB9MAT+DF2ET+DO7EN"
 Comment1 ""
 Comment2 ""
@@ -1052,29 +1052,29 @@ F 6 "Mouser" H -5400 6250 50  0001 C CNN "SPR"
 F 7 "571-826629-4" H -5400 6250 50  0001 C CNN "SPN"
 F 8 "" H -5400 6250 50  0001 C CNN "SPURL"
 	1    1200 7250
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR056
 U 1 1 5A7ED3CD
-P 1850 7200
-F 0 "#PWR056" H 1850 6950 50  0001 C CNN
-F 1 "GND" H 1850 7050 50  0000 C CNN
-F 2 "" H 1850 7200 50  0000 C CNN
-F 3 "" H 1850 7200 50  0000 C CNN
-	1    1850 7200
-	0    -1   -1   0   
+P 1500 7500
+F 0 "#PWR056" H 1500 7250 50  0001 C CNN
+F 1 "GND" H 1500 7350 50  0000 C CNN
+F 2 "" H 1500 7500 50  0000 C CNN
+F 3 "" H 1500 7500 50  0000 C CNN
+	1    1500 7500
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR061
 U 1 1 5A7ED3DB
-P 1500 7500
-F 0 "#PWR061" H 1500 7350 50  0001 C CNN
-F 1 "+3.3V" H 1500 7640 50  0000 C CNN
-F 2 "" H 1500 7500 50  0000 C CNN
-F 3 "" H 1500 7500 50  0000 C CNN
-	1    1500 7500
-	-1   0    0    1   
+P 1500 7000
+F 0 "#PWR061" H 1500 6850 50  0001 C CNN
+F 1 "+3.3V" H 1500 7140 50  0000 C CNN
+F 2 "" H 1500 7000 50  0000 C CNN
+F 3 "" H 1500 7000 50  0000 C CNN
+	1    1500 7000
+	1    0    0    -1  
 $EndComp
 $Comp
 L mmdvm_hs_dual_hat-rescue:R-device-mmdvm_hs_dual_hat-rescue R30
@@ -1116,6 +1116,11 @@ F 0 "JP1" H 7800 3950 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 7800 3850 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7800 4100 50  0001 C CNN
 F 3 "~" H 7800 4100 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "MFR"
+F 5 "" H 0   0   50  0001 C CNN "MPN"
+F 6 "" H 0   0   50  0001 C CNN "SPR"
+F 7 "" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    7800 4100
 	0    -1   -1   0   
 $EndComp
@@ -1176,9 +1181,9 @@ Text GLabel 1550 5650 2    49   Input ~ 0
 SDA
 Text GLabel 1550 5550 2    49   Input ~ 0
 SCL
-Text GLabel 1500 7100 2    49   Input ~ 0
+Text GLabel 1550 7200 2    49   Input ~ 0
 SWDIO
-Text GLabel 1500 7300 2    49   Input ~ 0
+Text GLabel 1550 7300 2    49   Input ~ 0
 SWCLK
 Wire Wire Line
 	1050 850  1150 850 
@@ -1481,8 +1486,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 7400 1500 7500
 Wire Wire Line
-	1400 7300 1500 7300
-Wire Wire Line
 	1800 2700 1900 2700
 Wire Wire Line
 	9050 3250 9050 3450
@@ -1490,8 +1493,6 @@ Wire Wire Line
 	2200 2000 2300 2000
 Wire Wire Line
 	2300 2000 2300 1900
-Wire Wire Line
-	1400 7200 1850 7200
 Wire Wire Line
 	6400 3850 6450 3850
 Wire Wire Line
@@ -1504,6 +1505,8 @@ Wire Wire Line
 	7600 4100 7600 3850
 Wire Wire Line
 	7600 3850 7700 3850
+Wire Wire Line
+	8000 4100 8100 4100
 Connection ~ 1400 850 
 Connection ~ 1400 1300
 Connection ~ 1150 850 
@@ -1556,5 +1559,9 @@ NoConn ~ 3250 2250
 NoConn ~ 3250 3050
 NoConn ~ 7400 2900
 Wire Wire Line
-	8000 4100 8100 4100
+	1500 7100 1500 7000
+Wire Wire Line
+	1400 7200 1550 7200
+Wire Wire Line
+	1400 7300 1550 7300
 $EndSCHEMATC

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# adf7021_ADF7021
+# adf7021:ADF7021
 #
-DEF adf7021_ADF7021 U 0 40 Y Y 1 F N
+DEF adf7021:ADF7021 U 0 40 Y Y 1 F N
 F0 "U" 0 -250 49 H V C CNN
-F1 "adf7021_ADF7021" 0 450 49 H V C CNN
+F1 "adf7021:ADF7021" 0 450 49 H V C CNN
 F2 "" -200 -250 49 H I C CNN
 F3 "" -200 -250 49 H I C CNN
 DRAW
@@ -62,11 +62,11 @@ X VDD4 9 -1000 -250 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_C-device-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:C-device-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_C-device-mmdvm_hs_dual_hat-rescue C 0 10 N Y 1 F N
+DEF mmdvm_hs_dual_hat-rescue:C-device-mmdvm_hs_dual_hat-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "mmdvm_hs_dual_hat-rescue_C-device-mmdvm_hs_dual_hat-rescue" 25 -100 50 H V L CNN
+F1 "mmdvm_hs_dual_hat-rescue:C-device-mmdvm_hs_dual_hat-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -80,11 +80,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_CONN_01X02-conn-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:CONN_01X02-conn-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_CONN_01X02-conn-mmdvm_hs_dual_hat-rescue P 0 40 Y N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:CONN_01X02-conn-mmdvm_hs_dual_hat-rescue P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_CONN_01X02-conn-mmdvm_hs_dual_hat-rescue" 100 0 50 V V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:CONN_01X02-conn-mmdvm_hs_dual_hat-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -102,11 +102,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_CONN_01X04-conn-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:CONN_01X04-conn-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_CONN_01X04-conn-mmdvm_hs_dual_hat-rescue P 0 40 Y N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:CONN_01X04-conn-mmdvm_hs_dual_hat-rescue P 0 40 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_CONN_01X04-conn-mmdvm_hs_dual_hat-rescue" 100 0 50 V V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:CONN_01X04-conn-mmdvm_hs_dual_hat-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -128,11 +128,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_CONN_02X03-conn-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:CONN_02X03-conn-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_CONN_02X03-conn-mmdvm_hs_dual_hat-rescue P 0 1 Y N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:CONN_02X03-conn-mmdvm_hs_dual_hat-rescue P 0 1 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_CONN_02X03-conn-mmdvm_hs_dual_hat-rescue" 0 -200 50 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:CONN_02X03-conn-mmdvm_hs_dual_hat-rescue" 0 -200 50 H V C CNN
 F2 "" 0 -1200 50 H V C CNN
 F3 "" 0 -1200 50 H V C CNN
 $FPLIST
@@ -158,11 +158,11 @@ X P6 6 250 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_CP-device-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:CP-device-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_CP-device-mmdvm_hs_dual_hat-rescue C 0 10 N Y 1 F N
+DEF mmdvm_hs_dual_hat-rescue:CP-device-mmdvm_hs_dual_hat-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "mmdvm_hs_dual_hat-rescue_CP-device-mmdvm_hs_dual_hat-rescue" 25 -100 50 H V L CNN
+F1 "mmdvm_hs_dual_hat-rescue:CP-device-mmdvm_hs_dual_hat-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -181,11 +181,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_Crystal-device-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:Crystal-device-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_Crystal-device-mmdvm_hs_dual_hat-rescue Y 0 40 N N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:Crystal-device-mmdvm_hs_dual_hat-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_Crystal-device-mmdvm_hs_dual_hat-rescue" 0 -150 50 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:Crystal-device-mmdvm_hs_dual_hat-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -202,11 +202,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_GS2-Connector
+# mmdvm_hs_dual_hat-rescue:GS2-Connector
 #
-DEF mmdvm_hs_dual_hat-rescue_GS2-Connector J 0 40 N N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:GS2-Connector J 0 40 N N 1 F N
 F0 "J" 100 150 50 H V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_GS2-Connector" 100 -149 50 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:GS2-Connector" 100 -149 50 H V C CNN
 F2 "Connectors:GS2" 74 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -220,11 +220,11 @@ X G2 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_L-device-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:L-device-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_L-device-mmdvm_hs_dual_hat-rescue L 0 40 N N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:L-device-mmdvm_hs_dual_hat-rescue L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_L-device-mmdvm_hs_dual_hat-rescue" 75 0 50 V V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:L-device-mmdvm_hs_dual_hat-rescue" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -243,11 +243,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_LD1117S33TR-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:LD1117S33TR-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_LD1117S33TR-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue U 0 30 Y Y 1 F N
+DEF mmdvm_hs_dual_hat-rescue:LD1117S33TR-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue U 0 30 Y Y 1 F N
 F0 "U" 0 250 50 H V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_LD1117S33TR-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue" 0 200 50 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:LD1117S33TR-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue" 0 200 50 H V C CNN
 F2 "SOT-223" 0 100 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -261,11 +261,11 @@ X VI 3 -400 50 150 R 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_LED-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:LED-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_LED-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue D 0 40 Y N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:LED-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_LED-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue" 0 -100 50 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:LED-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -282,11 +282,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_L_Small-device
+# mmdvm_hs_dual_hat-rescue:L_Small-device
 #
-DEF mmdvm_hs_dual_hat-rescue_L_Small-device L 0 10 N N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:L_Small-device L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "mmdvm_hs_dual_hat-rescue_L_Small-device" 30 -40 50 H V L CNN
+F1 "mmdvm_hs_dual_hat-rescue:L_Small-device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -305,11 +305,11 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_R-device-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:R-device-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_R-device-mmdvm_hs_dual_hat-rescue R 0 0 N Y 1 F N
+DEF mmdvm_hs_dual_hat-rescue:R-device-mmdvm_hs_dual_hat-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_R-device-mmdvm_hs_dual_hat-rescue" 0 0 50 V V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:R-device-mmdvm_hs_dual_hat-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -323,11 +323,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_RPi_GPIO-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:RPi_GPIO-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_RPi_GPIO-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue J 0 40 Y Y 1 F N
+DEF mmdvm_hs_dual_hat-rescue:RPi_GPIO-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue J 0 40 Y Y 1 F N
 F0 "J" 750 250 60 H V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_RPi_GPIO-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue" 750 150 60 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:RPi_GPIO-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue" 750 150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -375,11 +375,11 @@ X GND 9 -200 -400 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_SW_DIP_x01-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:SW_DIP_x01-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_SW_DIP_x01-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue SW 0 0 Y N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:SW_DIP_x01-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue SW 0 0 Y N 1 F N
 F0 "SW" 0 150 50 H V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_SW_DIP_x01-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue" 0 -150 50 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:SW_DIP_x01-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -395,11 +395,11 @@ X ~ 2 300 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_TCXO_DFAS11-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:TCXO_DFAS11-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_TCXO_DFAS11-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue X 0 40 Y Y 1 F N
+DEF mmdvm_hs_dual_hat-rescue:TCXO_DFAS11-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue X 0 40 Y Y 1 F N
 F0 "X" 0 300 50 H V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_TCXO_DFAS11-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue" 0 0 50 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:TCXO_DFAS11-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue" 0 0 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -411,11 +411,11 @@ X VCC 4 -700 150 300 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_TEST_1P-conn
+# mmdvm_hs_dual_hat-rescue:TEST_1P-conn
 #
-DEF mmdvm_hs_dual_hat-rescue_TEST_1P-conn W 0 30 N N 1 F N
+DEF mmdvm_hs_dual_hat-rescue:TEST_1P-conn W 0 30 N N 1 F N
 F0 "W" 0 270 50 H V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_TEST_1P-conn" 0 200 50 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:TEST_1P-conn" 0 200 50 H V C CNN
 F2 "" 200 0 50 H V C CNN
 F3 "" 200 0 50 H V C CNN
 DRAW
@@ -424,11 +424,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mmdvm_hs_dual_hat-rescue_USB_OTG-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue
+# mmdvm_hs_dual_hat-rescue:USB_OTG-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue
 #
-DEF mmdvm_hs_dual_hat-rescue_USB_OTG-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue P 0 40 Y Y 1 F N
+DEF mmdvm_hs_dual_hat-rescue:USB_OTG-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue P 0 40 Y Y 1 F N
 F0 "P" 325 -125 50 H V C CNN
-F1 "mmdvm_hs_dual_hat-rescue_USB_OTG-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue" 0 200 50 H V C CNN
+F1 "mmdvm_hs_dual_hat-rescue:USB_OTG-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue" 0 200 50 H V C CNN
 F2 "" -50 -100 50 V V C CNN
 F3 "" -50 -100 50 V V C CNN
 $FPLIST
@@ -450,11 +450,11 @@ X shield 6 400 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power_+3.3V
+# power:+3.3V
 #
-DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+DEF power:+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3V" 0 140 50 H V C CNN
+F1 "power:+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -466,11 +466,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_+5V
+# power:+5V
 #
-DEF power_+5V #PWR 0 0 Y Y 1 F P
+DEF power:+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
+F1 "power:+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -481,11 +481,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# power:GND
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF power:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -494,11 +494,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stm32f103c8t6_STM32F103C8T6
+# stm32f103c8t6:STM32F103C8T6
 #
-DEF stm32f103c8t6_STM32F103C8T6 U 0 40 Y Y 1 F N
+DEF stm32f103c8t6:STM32F103C8T6 U 0 40 Y Y 1 F N
 F0 "U" 0 -450 60 H V C CNN
-F1 "stm32f103c8t6_STM32F103C8T6" 0 450 60 H V C CNN
+F1 "stm32f103c8t6:STM32F103C8T6" 0 450 60 H V C CNN
 F2 "" 0 -450 60 H I C CNN
 F3 "" 0 -450 60 H I C CNN
 DRAW
