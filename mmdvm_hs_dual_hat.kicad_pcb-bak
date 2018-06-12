@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 56)
+    (drawings 65)
     (tracks 1262)
     (zones 0)
     (modules 213)
@@ -34,14 +34,14 @@
     (43 Eco2.User user)
     (44 Edge.Cuts user)
     (45 Margin user)
-    (46 B.CrtYd user hide)
-    (47 F.CrtYd user hide)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
     (48 B.Fab user)
     (49 F.Fab user)
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.5)
     (user_trace_width 0.01)
     (user_trace_width 0.02)
     (user_trace_width 0.05)
@@ -954,7 +954,7 @@
   )
 
   (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 5A84609C) (tstamp 5A8EED44)
-    (at 126 130.5)
+    (at 125.5 129.5)
     (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -7156,6 +7156,19 @@
       (net 99 SWD_TP2))
   )
 
+  (gr_line (start 125 130.5) (end 125 136.5) (layer B.SilkS) (width 0.2))
+  (gr_line (start 128 136.5) (end 128 133.5) (layer B.SilkS) (width 0.2))
+  (gr_line (start 114 136.5) (end 128 136.5) (layer B.SilkS) (width 0.2))
+  (gr_line (start 114 130.5) (end 114 136.5) (layer B.SilkS) (width 0.2))
+  (gr_line (start 128 130.5) (end 114 130.5) (layer B.SilkS) (width 0.2))
+  (gr_line (start 128 133.5) (end 128 130.5) (layer B.SilkS) (width 0.2))
+  (gr_line (start 114 133.5) (end 128 133.5) (layer B.SilkS) (width 0.2))
+  (gr_text "14.7456 MHz" (at 119.5 135) (layer B.SilkS) (tstamp 5B1F9B0B)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
+  (gr_text "12.2880 MHz" (at 119.5 132) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
   (gr_text TXD (at 141.03 127.2) (layer F.SilkS) (tstamp 5A78309A)
     (effects (font (size 0.75 0.75) (thickness 0.1875)))
   )
