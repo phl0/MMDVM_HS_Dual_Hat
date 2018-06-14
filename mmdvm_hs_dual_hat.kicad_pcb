@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(2018-02-05 revision 1f487593f)-makepkg")
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc2-unknown-9302bbc~65~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -88,7 +88,7 @@
       (useauxorigin true)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -7754,6 +7754,8 @@
   (segment (start 137.7 112.3003) (end 137.749201 112.349501) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 139.65 115.4) (end 140.4 115.4) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 138.25 114) (end 139.65 115.4) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 138.49 129.65) (end 138.49 129.4976) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 147 134.225) (end 147 134.5) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 104.54 124.94) (end 103.39 124.94) (width 0.25) (layer F.Cu) (net 4) (status 30))
   (segment (start 104.55 124.93) (end 104.54 124.94) (width 0.25) (layer F.Cu) (net 4) (status 30))
   (segment (start 105.69 124.93) (end 104.55 124.93) (width 0.25) (layer F.Cu) (net 4) (status 30))
@@ -8062,6 +8064,17 @@
   (segment (start 113.26 97.84) (end 114.4263 96.6737) (width 0.25) (layer B.Cu) (net 32))
   (segment (start 117.2599 96.1126) (end 117.2599 96.6737) (width 0.25) (layer F.Cu) (net 32))
   (segment (start 117.88 95.4925) (end 117.2599 96.1126) (width 0.25) (layer F.Cu) (net 32))
+  (segment (start 137.084 127) (end 147.575 127) (width 0.5) (layer F.Cu) (net 32))
+  (segment (start 135.95 129.65) (end 135.95 128.134) (width 0.5) (layer F.Cu) (net 32))
+  (segment (start 147.575 127) (end 147.775 127.2) (width 0.5) (layer F.Cu) (net 32))
+  (segment (start 135.95 128.134) (end 137.084 127) (width 0.5) (layer F.Cu) (net 32))
+  (segment (start 143.57 134.43) (end 145.5 132.5) (width 0.5) (layer F.Cu) (net 32))
+  (segment (start 147.775 128.725) (end 147.775 127.2) (width 0.5) (layer F.Cu) (net 32))
+  (segment (start 143.57 134.65) (end 143.57 134.43) (width 0.5) (layer F.Cu) (net 32))
+  (segment (start 145.5 132.5) (end 145.5 132) (width 0.5) (layer F.Cu) (net 32))
+  (segment (start 146.42499 131.07501) (end 146.42499 130.07501) (width 0.5) (layer F.Cu) (net 32))
+  (segment (start 145.5 132) (end 146.42499 131.07501) (width 0.5) (layer F.Cu) (net 32))
+  (segment (start 146.42499 130.07501) (end 147.775 128.725) (width 0.5) (layer F.Cu) (net 32))
   (segment (start 133.426 116.994) (end 132.529 116.994) (width 0.25) (layer F.Cu) (net 33) (status 20))
   (segment (start 133.43 116.99) (end 133.426 116.994) (width 0.25) (layer F.Cu) (net 33))
   (segment (start 133.43 113.73) (end 133.43 116.99) (width 0.25) (layer F.Cu) (net 33))
@@ -8201,19 +8214,6 @@
   (segment (start 135.2 103.6003) (end 135.2192 103.6003) (width 0.25) (layer F.Cu) (net 43))
   (segment (start 135.4168 121.8042) (end 134 123.221) (width 0.25) (layer B.Cu) (net 43))
   (segment (start 135.4168 103.7979) (end 135.4168 121.8042) (width 0.25) (layer B.Cu) (net 43))
-  (segment (start 138.49 129.65) (end 138.49 129.4976) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 147 134.225) (end 147 134.5) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 137.084 127) (end 147.575 127) (width 0.5) (layer F.Cu) (net 32))
-  (segment (start 135.95 129.65) (end 135.95 128.134) (width 0.5) (layer F.Cu) (net 32))
-  (segment (start 147.575 127) (end 147.775 127.2) (width 0.5) (layer F.Cu) (net 32))
-  (segment (start 135.95 128.134) (end 137.084 127) (width 0.5) (layer F.Cu) (net 32))
-  (segment (start 143.57 134.43) (end 145.5 132.5) (width 0.5) (layer F.Cu) (net 32))
-  (segment (start 147.775 128.725) (end 147.775 127.2) (width 0.5) (layer F.Cu) (net 32))
-  (segment (start 143.57 134.65) (end 143.57 134.43) (width 0.5) (layer F.Cu) (net 32))
-  (segment (start 145.5 132.5) (end 145.5 132) (width 0.5) (layer F.Cu) (net 32))
-  (segment (start 146.42499 131.07501) (end 146.42499 130.07501) (width 0.5) (layer F.Cu) (net 32))
-  (segment (start 145.5 132) (end 146.42499 131.07501) (width 0.5) (layer F.Cu) (net 32))
-  (segment (start 146.42499 130.07501) (end 147.775 128.725) (width 0.5) (layer F.Cu) (net 32))
   (segment (start 132.5 134.5) (end 135 137) (width 0.25) (layer F.Cu) (net 44))
   (segment (start 132.5 130.8) (end 132.5 134.5) (width 0.25) (layer F.Cu) (net 44))
   (segment (start 135 137) (end 138 137) (width 0.25) (layer F.Cu) (net 44))
@@ -9125,6 +9125,12 @@
     )
     (filled_polygon
       (pts
+        (xy 107.87957 85.84043) (xy 108.167826 86.033037) (xy 107.753179 86.41151) (xy 107.701854 86.521021) (xy 107.50043 86.21957)
+        (xy 107.216719 86.03) (xy 107.50043 85.84043) (xy 107.69 85.556719)
+      )
+    )
+    (filled_polygon
+      (pts
         (xy 133.470365 131.592655) (xy 133.551434 131.626235) (xy 134.934711 133.009512) (xy 134.726701 133.095673) (xy 134.548073 133.274302)
         (xy 134.4514 133.507691) (xy 134.4514 134.36425) (xy 134.61015 134.523) (xy 135.823 134.523) (xy 135.823 134.503)
         (xy 136.077 134.503) (xy 136.077 134.523) (xy 136.097 134.523) (xy 136.097 134.777) (xy 136.077 134.777)
@@ -9409,6 +9415,12 @@
     )
     (filled_polygon
       (pts
+        (xy 139.114117 114.8159) (xy 139.486083 114.8159) (xy 139.571423 114.780551) (xy 139.561673 114.790301) (xy 139.465 115.02369)
+        (xy 139.465 115.11625) (xy 139.621748 115.272998) (xy 139.465 115.272998) (xy 139.465 115.365198) (xy 138.775402 114.6756)
+      )
+    )
+    (filled_polygon
+      (pts
         (xy 138.410415 113.585517) (xy 138.3651 113.694917) (xy 138.3651 114.066883) (xy 138.5054 114.405598) (xy 137.678696 113.578894)
         (xy 137.916855 113.340735) (xy 137.98972 113.164822)
       )
@@ -9589,6 +9601,11 @@
         (xy 131.792998 91.895) (xy 131.792998 92.053748) (xy 131.63425 91.895) (xy 131.565 91.895) (xy 131.565 91.29744)
         (xy 131.78 91.29744) (xy 131.987013 91.256263) (xy 132.00375 91.273) (xy 132.605 91.273) (xy 132.605 91.253)
         (xy 132.855 91.253) (xy 132.855 91.273) (xy 133.45625 91.273) (xy 133.54425 91.185) (xy 135.80256 91.185)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 134.356745 101.293335) (xy 134.40735 101.34394) (xy 134.325 101.32756) (xy 134.27744 101.32756) (xy 134.27744 101.101875)
       )
     )
     (filled_polygon
