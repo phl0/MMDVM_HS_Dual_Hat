@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "MMDVM_HS_Dual_Hat"
-Date "2018-06-12"
+Date "2018-06-14"
 Rev "1.3"
 Comp "DB9MAT+DF2ET+DO7EN"
 Comment1 ""

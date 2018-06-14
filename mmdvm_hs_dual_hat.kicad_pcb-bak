@@ -1744,11 +1744,6 @@
       (net 36 SCL))
     (pad 4 thru_hole oval (at 0 7.62 90) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 35 SDA))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5AB4CE3D) (tstamp 5A6842FB)
@@ -3662,11 +3657,6 @@
       (net 41 DISP_TXD))
     (pad 4 thru_hole oval (at 0 7.62 90) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 3 GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 5AB4D6A8) (tstamp 5A6845D9)
@@ -3699,11 +3689,6 @@
       (net 43 SWDIO))
     (pad 4 thru_hole oval (at 0 7.62 90) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 32 +3V3))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5AB4CD3F) (tstamp 5A6845E5)
@@ -4883,16 +4868,6 @@
       (net 3 GND))
     (pad 6 thru_hole oval (at 2.54 5.08 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 3 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x03.wrl
-      (offset (xyz 1.269999980926514 -2.539999961853027 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5AB4D4E4) (tstamp 5A68DFC4)
@@ -5103,7 +5078,7 @@
       (net 82 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -5141,7 +5116,7 @@
       (net 3 GND))
     (pad 2 smd rect (at 0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 83 "Net-(D2-Pad2)"))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -5179,7 +5154,7 @@
       (net 84 "Net-(D3-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -5217,7 +5192,7 @@
       (net 3 GND))
     (pad 2 smd rect (at 0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 85 "Net-(D4-Pad2)"))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -5255,7 +5230,7 @@
       (net 86 "Net-(D5-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -5293,7 +5268,7 @@
       (net 3 GND))
     (pad 2 smd rect (at 0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 87 "Net-(D6-Pad2)"))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -5331,7 +5306,7 @@
       (net 88 "Net-(D7-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 3 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -5369,7 +5344,7 @@
       (net 3 GND))
     (pad 2 smd rect (at 0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 89 "Net-(D8-Pad2)"))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -5407,7 +5382,7 @@
       (net 33 SERVICE))
     (pad 2 smd rect (at 0.55 0 270) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 90 "Net-(D0-Pad2)"))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
