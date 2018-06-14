@@ -153,7 +153,10 @@ And finally upload the firmware to the MMDVM_HS_Dual_Hat:
 
 ### Update within Pi-Star
 
-Currently not possible. Will probably follow.
+[PiStar](http://www.pistar.uk/) contains a binary that allow for flashing precompiled binary firmware to the MMDVM_HS_Dual_Hat. To update the firmware within PiStar execute the following commands:
+
+    $ rpi-rw
+    $ pistar-mmdvmhshatflash hs_dual_hat
 
 ## License
 This project is released under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (CC-BY-NC-SA 3.0, https://creativecommons.org/licenses/by-nc-sa/3.0/) license. You may edit and share it as you like, as long as credit is given and the license is not changed. You can build as many boards for you and your friends as you like and you can even sell it to them to cover your costs, **however it is strictly forbidden to turn this into a commercial product! You are not allowed to build and sell these boards for profit!**
