@@ -22,6 +22,10 @@ LEDs D4 and D5 interchanged to align with scan order. Solder jumper JP1 was adde
 
 An accidentially deleted 3v3 wire has been added back to the PCB layout. BOM, Mouser cart and stencil stay the same as for rev1.1.
 
+### Revision 1.3
+
+STlink header has been refactored to have the same pinout as the [MMDVM_HS_Hat](https://github.com/mathisschmieder/MMDVM_HS_Hat) boards. OLED and STlink header have been exchanged. JP1 has been slightly moved. C44, C45 and C46 have been relocated nearer to the STM32F1 CPU. A table was added to the bottom silkscreen to show which TCXO is installed. This is important to the firmware. BOM and Mouser cart are still the same. The stencil has slightly changed. If you manually solder C44-C46 you can still use the old one.
+
 ## BOM
 
 Mouser cart for rev1.0 is [here](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=561bb01347).
