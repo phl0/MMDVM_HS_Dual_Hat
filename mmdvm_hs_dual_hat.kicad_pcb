@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc2-unknown-147c1e6~65~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc2-unknown-f634b75~65~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -100,7 +100,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber/))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -310,6 +310,26 @@
     (add_net SWD_TP2)
     (add_net TXD)
     (add_net YSF_LED)
+  )
+
+  (module Fiducials:Fiducial_0.5mm_Dia_1mm_Outer (layer F.Cu) (tedit 5B2B512C) (tstamp 5B2C3ADF)
+    (at 92.5 90.5)
+    (descr "Circular Fiducial, 0.5mm bare copper top; 1mm keepout (Level C)")
+    (tags marker)
+    (attr virtual)
+    (fp_text reference REF** (at 0 -1.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Fiducial_0.5mm_Dia_1mm_Outer (at 0 1.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 0.5 0) (layer F.Fab) (width 0.1))
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.2 0.2) (thickness 0.04)))
+    )
+    (fp_circle (center 0 0) (end 0.75 0) (layer F.CrtYd) (width 0.05))
+    (pad ~ smd circle (at 0 0) (size 1 1) (layers F.Cu F.Mask)
+      (solder_mask_margin 0.77) (clearance 0.77))
   )
 
   (module Fiducials:Fiducial_0.5mm_Dia_1mm_Outer (layer F.Cu) (tedit 5B2B5278) (tstamp 5B2D6F72)
@@ -7202,26 +7222,6 @@
     )
     (pad 1 smd rect (at 0 0) (size 1 1) (layers B.Cu B.Mask)
       (net 99 SWD_TP2))
-  )
-
-  (module Fiducials:Fiducial_0.5mm_Dia_1mm_Outer (layer F.Cu) (tedit 5B2B5111) (tstamp 5B2D67AD)
-    (at 92 90.5)
-    (descr "Circular Fiducial, 0.5mm bare copper top; 1mm keepout (Level C)")
-    (tags marker)
-    (attr virtual)
-    (fp_text reference REF** (at 0 -1.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Fiducial_0.5mm_Dia_1mm_Outer (at 0 1.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 0.5 0) (layer F.Fab) (width 0.1))
-    (fp_text user %R (at 0 0) (layer F.Fab)
-      (effects (font (size 0.2 0.2) (thickness 0.04)))
-    )
-    (fp_circle (center 0 0) (end 0.75 0) (layer F.CrtYd) (width 0.05))
-    (pad ~ smd circle (at 0.5 0) (size 1 1) (layers F.Cu F.Mask)
-      (solder_mask_margin 0.77) (clearance 0.77))
   )
 
   (target plus (at 92.5 90.5) (size 5) (width 0.1) (layer Edge.Cuts))
