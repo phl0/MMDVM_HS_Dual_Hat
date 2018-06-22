@@ -62,14 +62,13 @@ L mmdvm_hs_dual_hat-rescue:SW_DIP_x01-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_h
 U 1 1 5A7E28DC
 P 1050 1300
 F 0 "SW1" H 1050 1450 50  0000 C CNN
-F 1 "DNI" H 1050 1150 50  0000 C CNN
+F 1 "NO" H 1050 1150 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_B3U-1000P" H 1050 1300 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/307/en-b3u-3615.pdf" H 1050 1300 50  0001 C CNN
 F 4 "Omron Electronics" H -3900 -1350 50  0001 C CNN "MFR"
 F 5 "B3U-1000P" H -3900 -1350 50  0001 C CNN "MPN"
 F 6 "Mouser" H -3900 -1350 50  0001 C CNN "SPR"
 F 7 "653-B3U-1000P" H -3900 -1350 50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    1050 1300
 	1    0    0    -1  
 $EndComp
