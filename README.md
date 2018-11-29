@@ -147,7 +147,7 @@ Optionally:
 
 And for 12.288MHz TCXO equipped boards
 
-   #define ADF7021_12_2880
+    #define ADF7021_12_2880
 
 instead of the 14_7456 option.
 
@@ -173,7 +173,7 @@ And finally upload the firmware to the MMDVM_HS_Dual_Hat:
 
 If you have a board equipped with 12.288MHz TCXO you have to flash the according firmware type using:
 
-   $ pistar-mmdvmhshatflash hs_dual_hat-12mhz
+    $ pistar-mmdvmhshatflash hs_dual_hat-12mhz
 
 ## License
 This project is released under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (CC-BY-NC-SA 3.0, https://creativecommons.org/licenses/by-nc-sa/3.0/) license. You may edit and share it as you like, as long as credit is given and the license is not changed. You can build as many boards for you and your friends as you like and you can even sell it to them to cover your costs, **however it is strictly forbidden to turn this into a commercial product! You are not allowed to build and sell these boards for profit!**
