@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:mmdvm_hs_dual_hat-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -152,22 +151,6 @@ F 2 "" H 2300 750 50  0000 C CNN
 F 3 "" H 2300 750 50  0000 C CNN
 	1    2300 750 
 	1    0    0    -1  
-$EndComp
-$Comp
-L mmdvm_hs_dual_hat-rescue:R-device-mmdvm_hs_dual_hat-rescue R25
-U 1 1 5A842562
-P 5350 4050
-F 0 "R25" V 5430 4050 50  0000 C CNN
-F 1 "10k" V 5350 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 5280 4050 50  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/427/crcwce3-1223726.pdf" H 5350 4050 50  0001 C CNN
-F 4 "Vishay" H 3200 200 50  0001 C CNN "MFR"
-F 5 "CRCW040210K0JNEDC" H 3200 200 50  0001 C CNN "MPN"
-F 6 "Mouser" H 3200 200 50  0001 C CNN "SPR"
-F 7 "71-CRCW040210K0JNEDC" H 3200 200 50  0001 C CNN "SPN"
-F 8 "" H 3200 200 50  0001 C CNN "SPURL"
-	1    5350 4050
-	0    1    -1   0   
 $EndComp
 $Comp
 L mmdvm_hs_dual_hat-rescue:LED-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue D1
@@ -405,61 +388,6 @@ F 3 "" H 2300 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR085
-U 1 1 5A842621
-P 2900 2700
-F 0 "#PWR085" H 2900 2450 50  0001 C CNN
-F 1 "GND" H 2900 2550 50  0000 C CNN
-F 2 "" H 2900 2700 50  0000 C CNN
-F 3 "" H 2900 2700 50  0000 C CNN
-	1    2900 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR086
-U 1 1 5A842627
-P 2950 4200
-F 0 "#PWR086" H 2950 3950 50  0001 C CNN
-F 1 "GND" H 2950 4050 50  0000 C CNN
-F 2 "" H 2950 4200 50  0000 C CNN
-F 3 "" H 2950 4200 50  0000 C CNN
-	1    2950 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR089
-U 1 1 5A84262D
-P 5400 2300
-F 0 "#PWR089" H 5400 2050 50  0001 C CNN
-F 1 "GND" H 5400 2150 50  0000 C CNN
-F 2 "" H 5400 2300 50  0000 C CNN
-F 3 "" H 5400 2300 50  0000 C CNN
-	1    5400 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR088
-U 1 1 5A842633
-P 5350 3750
-F 0 "#PWR088" H 5350 3500 50  0001 C CNN
-F 1 "GND" H 5350 3600 50  0000 C CNN
-F 2 "" H 5350 3750 50  0000 C CNN
-F 3 "" H 5350 3750 50  0000 C CNN
-	1    5350 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR087
-U 1 1 5A842639
-P 5250 2200
-F 0 "#PWR087" H 5250 2050 50  0001 C CNN
-F 1 "+5V" H 5250 2340 50  0000 C CNN
-F 2 "" H 5250 2200 50  0000 C CNN
-F 3 "" H 5250 2200 50  0000 C CNN
-	1    5250 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L mmdvm_hs_dual_hat-rescue:LED-RESCUE-mmdvm_hs-hat-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue D0
 U 1 1 5A842643
 P 1650 2000
@@ -490,22 +418,6 @@ F 7 "71-RCS04021K00JNED" H -8800 -2400 50  0001 C CNN "SPN"
 F 8 "" H -8800 -2000 50  0001 C CNN "SPURL"
 	1    2050 2000
 	0    1    1    0   
-$EndComp
-$Comp
-L mmdvm_hs_dual_hat-rescue:RPi_GPIO-RESCUE-mmdvm_hs_dual_hat-mmdvm_hs_dual_hat-rescue J1
-U 1 1 5A8426B4
-P 3450 2250
-F 0 "J1" H 4200 2500 60  0000 C CNN
-F 1 "RPi_GPIO" H 4200 2400 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 3450 2250 60  0001 C CNN
-F 3 "https://www.mouser.com/ds/2/181/M20-783-1133465.pdf" H 3450 2250 60  0001 C CNN
-F 4 "Harwin" H 0   0   50  0001 C CNN "MFR"
-F 5 "M20-7832046" H 0   0   50  0001 C CNN "MPN"
-F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
-F 7 "855-M20-7832046" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    3450 2250
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR080
@@ -1136,8 +1048,6 @@ F 3 "" H 8100 4150 50  0001 C CNN
 $EndComp
 Text GLabel 1500 850  2    49   Input ~ 0
 NRST
-Text GLabel 5550 4050 2    49   Input ~ 0
-BOOT0
 Text GLabel 1400 2700 0    49   Input ~ 0
 COS_LED
 Text GLabel 1400 3000 0    49   Input ~ 0
@@ -1150,18 +1060,8 @@ Text GLabel 1400 4200 0    49   Input ~ 0
 P25_LED
 Text GLabel 1400 3900 0    49   Input ~ 0
 YSF_LED
-Text GLabel 5250 2550 2    60   Input ~ 0
-RXD
-Text GLabel 5250 2650 2    60   Input ~ 0
-TXD
-Text GLabel 5200 4150 2    49   Input ~ 0
-NRST
 Text GLabel 1400 2000 0    49   Input ~ 0
 SERVICE
-Text GLabel 3100 2350 0    60   Input ~ 0
-SDA
-Text GLabel 3100 2450 0    60   Input ~ 0
-SCL
 Text GLabel 1400 4500 0    49   Input ~ 0
 NXDN_LED
 Text GLabel 8050 3850 2    49   Input ~ 0
@@ -1241,14 +1141,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 2400 1500 2400
 Wire Wire Line
-	2900 2650 3250 2650
-Wire Wire Line
-	3250 4150 2950 4150
-Wire Wire Line
-	2900 2650 2900 2700
-Wire Wire Line
-	3250 3450 2950 3450
-Wire Wire Line
 	1400 2000 1500 2000
 Wire Wire Line
 	1800 2000 1900 2000
@@ -1291,34 +1183,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 2400 1900 2400
 Wire Wire Line
-	2950 3450 2950 4150
-Wire Wire Line
-	3250 2350 3100 2350
-Wire Wire Line
-	3250 2450 3100 2450
-Wire Wire Line
-	5150 2850 5350 2850
-Wire Wire Line
-	5150 3650 5200 3650
-Wire Wire Line
-	5150 3150 5350 3150
-Wire Wire Line
-	5150 3850 5200 3850
-Wire Wire Line
-	5200 3850 5200 3650
-Wire Wire Line
-	5350 2850 5350 3150
-Wire Wire Line
-	5150 4050 5200 4050
-Wire Wire Line
-	5500 4050 5550 4050
-Wire Wire Line
-	5150 2650 5250 2650
-Wire Wire Line
-	5400 2250 5300 2250
-Wire Wire Line
-	5300 2250 5300 2450
-Wire Wire Line
 	1900 4500 1800 4500
 Wire Wire Line
 	1500 4500 1400 4500
@@ -1333,35 +1197,11 @@ Wire Wire Line
 Wire Wire Line
 	2300 3900 2300 4200
 Wire Wire Line
-	2950 4150 2950 4200
-Wire Wire Line
-	5350 3650 5350 3750
-Wire Wire Line
-	5350 3150 5350 3650
-Wire Wire Line
-	5200 3650 5350 3650
-Wire Wire Line
 	2200 4500 2300 4500
 Wire Wire Line
 	2300 4500 2300 4600
 Wire Wire Line
-	5150 2350 5250 2350
-Wire Wire Line
-	5250 2350 5250 2250
-Wire Wire Line
-	5150 2250 5250 2250
-Wire Wire Line
-	5250 2250 5250 2200
-Wire Wire Line
 	2300 4200 2300 4500
-Wire Wire Line
-	5300 2450 5150 2450
-Wire Wire Line
-	5400 2300 5400 2250
-Wire Wire Line
-	5150 2550 5250 2550
-Wire Wire Line
-	5150 4150 5200 4150
 Wire Wire Line
 	6900 2800 6950 2800
 Wire Wire Line
@@ -1517,12 +1357,7 @@ Connection ~ 2300 3300
 Connection ~ 2300 3600
 Connection ~ 2300 3900
 Connection ~ 2300 4200
-Connection ~ 2950 4150
-Connection ~ 5350 3650
-Connection ~ 5350 3150
-Connection ~ 5200 3650
 Connection ~ 2300 4500
-Connection ~ 5250 2250
 Connection ~ 7350 2800
 Connection ~ 6950 2700
 Connection ~ 6950 2800
@@ -1532,30 +1367,6 @@ Connection ~ 9600 2950
 Connection ~ 10600 2950
 Connection ~ 10100 2950
 Connection ~ 7600 3850
-NoConn ~ 3250 2550
-NoConn ~ 3250 2750
-NoConn ~ 3250 2850
-NoConn ~ 3250 2950
-NoConn ~ 3250 3150
-NoConn ~ 3250 3250
-NoConn ~ 3250 3350
-NoConn ~ 3250 3550
-NoConn ~ 3250 3650
-NoConn ~ 3250 3750
-NoConn ~ 3250 3850
-NoConn ~ 3250 3950
-NoConn ~ 3250 4050
-NoConn ~ 5150 3950
-NoConn ~ 5150 3750
-NoConn ~ 5150 3550
-NoConn ~ 5150 3450
-NoConn ~ 5150 3350
-NoConn ~ 5150 3250
-NoConn ~ 5150 3050
-NoConn ~ 5150 2950
-NoConn ~ 5150 2750
-NoConn ~ 3250 2250
-NoConn ~ 3250 3050
 NoConn ~ 7400 2900
 Wire Wire Line
 	1500 7100 1500 7000
@@ -1563,4 +1374,151 @@ Wire Wire Line
 	1400 7200 1550 7200
 Wire Wire Line
 	1400 7300 1550 7300
+$Comp
+L mmdvm_hs_dual_hat-rescue:R-device-mmdvm_hs_dual_hat-rescue R25
+U 1 1 5A842562
+P 3450 3300
+F 0 "R25" V 3530 3300 50  0000 C CNN
+F 1 "10k" V 3450 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3380 3300 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/427/crcwce3-1223726.pdf" H 3450 3300 50  0001 C CNN
+F 4 "Vishay" H 1300 -550 50  0001 C CNN "MFR"
+F 5 "CRCW040210K0JNEDC" H 1300 -550 50  0001 C CNN "MPN"
+F 6 "Mouser" H 1300 -550 50  0001 C CNN "SPR"
+F 7 "71-CRCW040210K0JNEDC" H 1300 -550 50  0001 C CNN "SPN"
+F 8 "" H 1300 -550 50  0001 C CNN "SPURL"
+	1    3450 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR086
+U 1 1 5A842627
+P 4050 4900
+F 0 "#PWR086" H 4050 4650 50  0001 C CNN
+F 1 "GND" H 4050 4750 50  0000 C CNN
+F 2 "" H 4050 4900 50  0000 C CNN
+F 3 "" H 4050 4900 50  0000 C CNN
+	1    4050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR087
+U 1 1 5A842639
+P 4250 1900
+F 0 "#PWR087" H 4250 1750 50  0001 C CNN
+F 1 "+5V" H 4250 2040 50  0000 C CNN
+F 2 "" H 4250 1900 50  0000 C CNN
+F 3 "" H 4250 1900 50  0000 C CNN
+	1    4250 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 3250 3300 0    49   Input ~ 0
+BOOT0
+Text GLabel 3550 2500 0    60   Input ~ 0
+RXD
+Text GLabel 3550 2600 0    60   Input ~ 0
+TXD
+Text GLabel 3600 3400 0    49   Input ~ 0
+NRST
+Text GLabel 5400 2800 2    60   Input ~ 0
+SDA
+Text GLabel 5400 2900 2    60   Input ~ 0
+SCL
+Wire Wire Line
+	5250 2800 5400 2800
+Wire Wire Line
+	5250 2900 5400 2900
+Wire Wire Line
+	3650 3300 3600 3300
+Wire Wire Line
+	3300 3300 3250 3300
+Wire Wire Line
+	3650 2600 3550 2600
+Wire Wire Line
+	3650 2500 3550 2500
+Wire Wire Line
+	3650 3400 3600 3400
+$Comp
+L Connector:Raspberry_Pi_2_3 J1
+U 1 1 5F40DFA0
+P 4450 3400
+F 0 "J1" H 4750 4650 50  0000 C CNN
+F 1 "RPi_GPIO" H 5000 4650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 4450 3400 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 4450 3400 50  0001 C CNN
+	1    4450 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4700 4050 4800
+Wire Wire Line
+	4050 4800 4150 4800
+Wire Wire Line
+	4750 4800 4750 4700
+Wire Wire Line
+	4650 4700 4650 4800
+Connection ~ 4650 4800
+Wire Wire Line
+	4650 4800 4750 4800
+Wire Wire Line
+	4550 4700 4550 4800
+Connection ~ 4550 4800
+Wire Wire Line
+	4550 4800 4650 4800
+Wire Wire Line
+	4450 4700 4450 4800
+Connection ~ 4450 4800
+Wire Wire Line
+	4450 4800 4550 4800
+Wire Wire Line
+	4350 4700 4350 4800
+Connection ~ 4350 4800
+Wire Wire Line
+	4350 4800 4450 4800
+Wire Wire Line
+	4250 4700 4250 4800
+Connection ~ 4250 4800
+Wire Wire Line
+	4250 4800 4350 4800
+Wire Wire Line
+	4150 4700 4150 4800
+Connection ~ 4150 4800
+Wire Wire Line
+	4150 4800 4250 4800
+Wire Wire Line
+	4050 4800 4050 4900
+Connection ~ 4050 4800
+NoConn ~ 4550 2100
+NoConn ~ 4650 2100
+Wire Wire Line
+	4250 1900 4250 2000
+Wire Wire Line
+	4250 2000 4350 2000
+Wire Wire Line
+	4350 2000 4350 2100
+Connection ~ 4250 2000
+Wire Wire Line
+	4250 2000 4250 2100
+NoConn ~ 3650 2800
+NoConn ~ 3650 2900
+NoConn ~ 3650 3000
+NoConn ~ 3650 3200
+NoConn ~ 3650 3600
+NoConn ~ 3650 3700
+NoConn ~ 3650 3800
+NoConn ~ 3650 3900
+NoConn ~ 3650 4000
+NoConn ~ 3650 4100
+NoConn ~ 5250 4200
+NoConn ~ 5250 4100
+NoConn ~ 5250 3900
+NoConn ~ 5250 3800
+NoConn ~ 5250 3700
+NoConn ~ 5250 3600
+NoConn ~ 5250 3500
+NoConn ~ 5250 3300
+NoConn ~ 5250 3200
+NoConn ~ 5250 3100
+NoConn ~ 5250 2600
+NoConn ~ 5250 2500
 $EndSCHEMATC

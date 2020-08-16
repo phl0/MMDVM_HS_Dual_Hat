@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:mmdvm_hs_dual_hat-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -184,9 +183,11 @@ F 3 "" H 6750 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stm32f103c8t6:STM32F103C8T6 U3
+L mmdvm_hs_dual_hat-rescue:STM32F103C8T6-stm32f103c8t6 U3
 U 1 1 5A775653
 P 6050 3000
+AR Path="/5A775653" Ref="U3"  Part="1" 
+AR Path="/5A86EF1A/5A775653" Ref="U3"  Part="1" 
 F 0 "U3" H 6050 2550 60  0000 C CNN
 F 1 "STM32F103C8T6" H 6050 3450 60  0000 C CNN
 F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 6050 2550 60  0001 C CNN
