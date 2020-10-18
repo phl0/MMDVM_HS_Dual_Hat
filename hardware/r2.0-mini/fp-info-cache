@@ -1,0 +1,64 @@
+14427144361576
+pkl_pin_headers
+Connector_JST_ZH_S3B-ZR
+
+
+0
+3
+3
+pkl_pin_headers
+PinHeader_2x05_P2.54mm_Vertical_SMD
+surface-mounted straight pin header, 2x05, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x05 2.54mm double row
+0
+10
+10
+pkl_pin_headers
+PinSocket_2x06_P2.54mm_Horizontal_Top_Bottom
+Through hole angled socket strip, 2x06, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated
+Through hole angled socket strip THT 2x06 2.54mm double row PMOD
+0
+12
+12
+pkl_pin_headers
+Pin_Header_Angled_1x04
+Through hole pin header
+pin header
+0
+4
+4
+pkl_pin_headers
+Pin_Header_Angled_3x02
+Through hole pin header
+pin header
+0
+6
+6
+pkl_pin_headers
+Pin_Header_Straight_1x04
+Through hole pin header
+pin header
+0
+4
+4
+pkl_pin_headers
+Pin_Header_Straight_Round_1x01
+Through hole pin header
+pin header
+0
+1
+1
+pkl_pin_headers
+Pin_Header_Straight_Round_1x01_Castellated
+Through hole pin header with castellation
+pin header
+0
+4
+1
+pkl_pin_headers
+Socket_Strip_SMD_Straight_2x10
+SMD socket strip
+socket strip
+0
+20
+20
