@@ -1,0 +1,6 @@
+*.bak
+*-bak
+*.zip
+*gerber*
+_autosave-*
+.DS_Store
